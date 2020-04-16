@@ -10,9 +10,9 @@ namespace PRODUCTS.DataBase
         {
             return new List<Product>()
             {
-                new Product() { NameProd = "objeto1", TypeProd = "Soccer", CodeProd = "SOCCER-001" },
-                new Product() { NameProd = "objeto2", TypeProd = "Basket", CodeProd = "BASKET-001" },
-                new Product() { NameProd = "objeto3", TypeProd = "Soccer", CodeProd = "SOCCER-002" }
+                new Product() { Name = "objeto1", Type = "Soccer", Code = "SOCCER-001" , Stock = 1},
+                new Product() { Name = "objeto2", Type = "Basket", Code = "BASKET-001" , Stock = 1 },
+                new Product() { Name = "objeto3", Type = "Soccer", Code = "SOCCER-002" , Stock = 1}
             };
         }
     }

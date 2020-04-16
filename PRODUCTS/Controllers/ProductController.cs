@@ -16,34 +16,27 @@ namespace PRODUCTS.Controllers
         }
 
         // GET api/product
-        [HttpGet("")]
+        [HttpGet]
         public IEnumerable<string> GetAll()
         {
             return new List<string> { };
         }
-        /*
-        // GET api/product/5
-        [HttpGet("{id}")]
-        public ActionResult<string> GetstringById(int id)
-        {
-            return null;
-        }
-*/
+        
         // POST api/product
-        [HttpPost("")]
-        public void Poststring(string value)
+        [HttpPost]
+        public void Post([FromBody] string value)
         {
         }
 
         // PUT api/product/5
         [HttpPut("{id}")]
-        public void Putstring(int id, string value)
+        public void Put(int id,[FromBody] string value)
         {
         }
 
         // DELETE api/product/5
         [HttpDelete("{id}")]
-        public void DeletestringById(int id)
+        public void Delete(int id)
         {
         }
         

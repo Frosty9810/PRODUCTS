@@ -8,6 +8,6 @@ namespace PRODUCTS.BusinessLogic
 {
     public interface IProductsListLogic
     {
-        public List<ListDTO> GetListProducts();
+        public List<ProductDTO> GetListProducts();
     }
 }

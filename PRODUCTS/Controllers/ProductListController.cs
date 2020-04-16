@@ -13,48 +13,22 @@ namespace PRODUCTS.Controllers
     [ApiController]
     public class ProductListController : ControllerBase
     {
-        private readonly IProductsListLogic _productLogic;
-        public ProductListController(IProductsListLogic productLogic)
+        private readonly IProductsListLogic _productLisLogic;
+        public ProductListController(IProductsListLogic productListLogic)
         {
 
-               _productLogic = productLogic;
+            _productLisLogic = productListLogic;
 
-        }
-
-        // GET api/list
-        [HttpGet("")]
-        public ActionResult<IEnumerable<string>> Getstrings()
-        {
-            return new List<string> { };
         }
 
         // GET api/list/5
-        [HttpGet("{id}")]
+        [HttpGet]
         public IEnumerable<ProductDTO> GetAll()//READ
         {
             //DEPENDENCY INJECTION.
 
-            return _productLogic.GetListProducts();
+            return _productLisLogic.GetListProducts();
         }
 
-        /*
-        // POST api/list
-        [HttpPost("")]
-        public void Poststring(string value)
-        {
-        }
-
-        // PUT api/list/5
-        [HttpPut("{id}")]
-        public void Putstring(int id, string value)
-        {
-        }
-
-        // DELETE api/list/5
-        [HttpDelete("{id}")]
-        public void DeletestringById(int id)
-        {
-        }
-        */
     }
 }

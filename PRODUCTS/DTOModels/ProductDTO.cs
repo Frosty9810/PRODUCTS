@@ -11,7 +11,7 @@ namespace PRODUCTS.DTOModels
 
         public string Type { get; set; }
 
-        public int Code { get; set; }
+        public string Code { get; set; }
 
         public int Stock { get; set;}
     }
