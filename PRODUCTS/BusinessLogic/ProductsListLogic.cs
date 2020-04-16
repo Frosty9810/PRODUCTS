@@ -44,5 +44,18 @@ namespace PRODUCTS.BusinessLogic
             listToAdd.Add(new ProductDTO() { Name = product.Name , Tipe = product.Tipe, Code = product.Code , Stock = product.Stock});
             
         }
+
+        private void generateCode(List<ProductDTO> listToAdd, Product product){
+            List<ProductDTO> soccerList = listToAdd.Where(product => product.Tipe == "SOCCER");
+            List<ProductDTO> basketList = listToAdd.Where(product => product.Tipe == "BASKET");
+            if(product.Tipe == "SOCCER"){
+                int id = soccerList.Count + 1;
+                product.Code = "SOCCER-"+id;
+            }
+            if(product.Tipe == "BASKET"){
+                int id = basketList.Count + 1;
+                product.Code = "BASKET-"+id;
+            }
+        }
     }
 }
