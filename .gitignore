@@ -2,6 +2,14 @@
 # Created by https://www.gitignore.io/api/linux,macos,visualstudio,microsoftoffice,visualstudiocode
 # Edit at https://www.gitignore.io/?templates=linux,macos,visualstudio,microsoftoffice,visualstudiocode
 
+### DotnetCore ###
+# .NET Core build folders
+/bin
+/obj
+
+# Common node modules locations
+/node_modules
+/wwwroot/node_modules
 ### Linux ###
 *~
 
