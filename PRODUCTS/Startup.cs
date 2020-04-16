@@ -10,6 +10,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using PRODUCTS.DataBase;
+using PRODUCTS.BusinessLogic;
 
 namespace PRODUCTS
 {
@@ -26,6 +28,8 @@ namespace PRODUCTS
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddTransient<IProductsListLogic, ProductsListLogic>();
+            services.AddTransient<IProductsDB, ProductTableDB>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -36,7 +40,7 @@ namespace PRODUCTS
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
 
             app.UseRouting();
 
