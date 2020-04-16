@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-//using PRODUCTS.DTOModels;
+using PRODUCTS.DTOModels;
 using PRODUCTS.BusinessLogic;
 
 
@@ -30,7 +30,7 @@ namespace PRODUCTS.Controllers
 
         // GET api/list/5
         [HttpGet("{id}")]
-        public IEnumerable<ListDTO> GetAll()//READ
+        public IEnumerable<ProductDTO> GetAll()//READ
         {
             //DEPENDENCY INJECTION.
 
