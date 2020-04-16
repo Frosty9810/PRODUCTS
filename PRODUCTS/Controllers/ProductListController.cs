@@ -30,7 +30,7 @@ namespace PRODUCTS.Controllers
 
         // GET api/list/5
         [HttpGet("{id}")]
-        public IEnumerable<ProductDTO> GetAll()//READ
+        public IEnumerable<ListDTO> GetAll()//READ
         {
             //DEPENDENCY INJECTION.
 

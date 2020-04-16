@@ -28,7 +28,7 @@ namespace PRODUCTS.Controllers
         {
             return null;
         }
-
+*/
         // POST api/product
         [HttpPost("")]
         public void Poststring(string value)
@@ -46,6 +46,6 @@ namespace PRODUCTS.Controllers
         public void DeletestringById(int id)
         {
         }
-        */
+        
     }
 }
