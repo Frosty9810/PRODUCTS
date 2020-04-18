@@ -59,5 +59,47 @@ namespace PRODUCTS.BusinessLogic
                 product.Code = "BASKET-"+id;
             }
         }
+
+        private Product readProduct(List<Product> listProducts , Product productR)
+        {
+            Product showProduct = null;
+            foreach(Product product in listProducts)
+            {
+                if (product.Equals(productR))
+                {
+                    showProduct = product;
+                }
+            }
+            return showProduct; 
+        }
+
+        private void updateProduct(List<Product> listProducts, Product productU)
+        {
+            foreach(Product product in listProducts)
+            {
+                if (product.Equals(productU))
+                {   
+                    product.Name = "";
+                    product.Type = "";
+                    product.Code = "";
+                    product.Stock = 0;
+                    break;
+                }
+            }
+        }
+
+        private void deleteProduct(List<Product> listProducts, Product productD)
+        {
+            int count = 0;
+            foreach(Product product in listProducts)
+            {
+                count += 1;
+                if (product.Equals(productD))
+                {   
+                    listProducts.RemoveAt(count);
+                    break;
+                }
+            }
+        }
     }
 }
