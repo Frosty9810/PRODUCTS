@@ -18,6 +18,7 @@ C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\obj\Debug\netcoreapp3.1\s
 C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.dll
 C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.pdb
 C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.genruntimeconfig.cache
+<<<<<<< HEAD
 C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -38,3 +39,25 @@ C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\obj\Debug\netco
 C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.dll
 C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.pdb
 C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.genruntimeconfig.cache
+=======
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.exe
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.deps.json
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.runtimeconfig.json
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.runtimeconfig.dev.json
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.dll
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.pdb
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.csprojAssemblyReference.cache
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.csproj.CoreCompileInputs.cache
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.MvcApplicationPartsAssemblyInfo.cache
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.AssemblyInfoInputs.cache
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.AssemblyInfo.cs
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.RazorTargetAssemblyInfo.cache
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\staticwebassets\PRODUCTS.StaticWebAssets.Manifest.cache
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\staticwebassets\PRODUCTS.StaticWebAssets.xml
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.dll
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.pdb
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.genruntimeconfig.cache
+>>>>>>> origin/StefanoDev

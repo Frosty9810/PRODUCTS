@@ -43,7 +43,7 @@ namespace PRODUCTS.BusinessLogic
 
         private void addToList(List<ProductDTO> listToAdd, Product product) 
         {
-            listToAdd.Add(new ProductDTO() { Name = product.Name , Type = product.Type, Code = product.Code , Stock = product.Stock});
+           listToAdd.Add(new ProductDTO() { Name = product.Name , Type = product.Type, Code = product.Code , Stock = product.Stock});
             
         }
 
