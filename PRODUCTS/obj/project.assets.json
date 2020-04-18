@@ -8,20 +8,25 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\tenos\\.nuget\\packages\\": {}
+    "C:\\Users\\HP\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Stefano\\Cetificacion1\\Grupo2\\PRODUCTS\\PRODUCTS.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\Documents\\2020-UPB\\I\\Certificacion I\\Grupo2\\PRODUCTS\\PRODUCTS.csproj",
       "projectName": "PRODUCTS",
-      "projectPath": "C:\\Stefano\\Cetificacion1\\Grupo2\\PRODUCTS\\PRODUCTS.csproj",
-      "packagesPath": "C:\\Users\\tenos\\.nuget\\packages\\",
-      "outputPath": "C:\\Stefano\\Cetificacion1\\Grupo2\\PRODUCTS\\obj\\",
+      "projectPath": "C:\\Users\\HP\\Documents\\2020-UPB\\I\\Certificacion I\\Grupo2\\PRODUCTS\\PRODUCTS.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\HP\\Documents\\2020-UPB\\I\\Certificacion I\\Grupo2\\PRODUCTS\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\tenos\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
