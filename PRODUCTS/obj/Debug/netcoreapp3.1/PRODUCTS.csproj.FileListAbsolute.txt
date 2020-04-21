@@ -61,3 +61,9 @@ C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.dll
 C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.pdb
 C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.genruntimeconfig.cache
 >>>>>>> origin/StefanoDev
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.MvcApplicationPartsAssemblyInfo.cs
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.csproj.CopyComplete
