@@ -17,7 +17,7 @@ namespace PRODUCTS.BusinessLogic
         {
             _productTableDB = productTableDB;
         }
-        
+
         public List<ProductDTO> GetListProducts() 
         {
             // Retrieve all students from database
@@ -47,7 +47,7 @@ namespace PRODUCTS.BusinessLogic
             
         }
 
-        private void generateCode(List<ProductDTO> listToAdd, Product product){
+        private Product generateCode(List<ProductDTO> listToAdd, Product product){
             IEnumerable<ProductDTO> soccerList = listToAdd.Where(product => product.Type == "SOCCER");
             IEnumerable<ProductDTO> basketList = listToAdd.Where(product => product.Type == "BASKET");
             if(product.Type == "SOCCER"){
@@ -58,9 +58,20 @@ namespace PRODUCTS.BusinessLogic
                 int id = basketList.Count() + 1;
                 product.Code = "BASKET-"+id;
             }
+            return product;
         }
 
-        private Product readProduct(List<Product> listProducts , Product productR)
+        public Product CreateProduct(Product product)
+        {
+            List<Product> allProducts = _productTableDB.GetAll();
+
+            Product productCode = generateCode(GetListProducts(), product);
+
+            allProducts.Add(new Product(){ Name = productCode.Name , Type = productCode.Type, Code = productCode.Code , Stock = productCode.Stock});
+
+            return productCode;
+        }
+        public Product readProduct(List<Product> listProducts , Product productR)
         {
             Product showProduct = null;
             foreach(Product product in listProducts)
@@ -73,33 +84,56 @@ namespace PRODUCTS.BusinessLogic
             return showProduct; 
         }
 
-        private void updateProduct(List<Product> listProducts, Product productU)
+        public Product updateProduct(string code, string name, string type, int stock)
         {
+            List<Product> listProducts = _productTableDB.GetAll();
+            Product product1 = null;
+
             foreach(Product product in listProducts)
             {
-                if (product.Equals(productU))
+                if (product.Code.Equals(code))
                 {   
-                    product.Name = "";
-                    product.Type = "";
-                    product.Code = "";
-                    product.Stock = 0;
+                    product1 = product;
+                    product.Name = name;
+                    product.Type = type;
+                    product.Code = code;
+                    product.Stock = stock;
                     break;
                 }
+                 else
+                {
+                    product.Name = "Este No Es";
+                    product.Type = "Este tampoco";
+                    product.Code = "Este peor";
+                    product.Stock = 404;
+                }
             }
+            return product1;
         }
 
-        private void deleteProduct(List<Product> listProducts, Product productD)
+        public Product deleteProduct(string code)
         {
+            List<Product> listProducts = _productTableDB.GetAll();
             int count = 0;
+            Product product1 = null;
             foreach(Product product in listProducts)
             {
                 count += 1;
-                if (product.Equals(productD))
+                if (product.Code.Equals(code))
                 {   
+                    product1 = product;
                     listProducts.RemoveAt(count);
                     break;
                 }
+                else
+                {
+                    product.Name = "Este No Es";
+                    product.Type = "Este tampoco";
+                    product.Code = "Este peor";
+                    product.Stock = 404;
+                }
             }
+            return product1;
         }
     }
 }

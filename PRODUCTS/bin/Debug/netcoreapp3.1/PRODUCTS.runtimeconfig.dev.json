@@ -1,8 +1,10 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\tenos\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\tenos\\.nuget\\packages"
+      "C:\\Users\\froil\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\froil\\.nuget\\packages",
+      "C:\\ProgramData\\Xamarin\\NuGet",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ]
   }
 }
