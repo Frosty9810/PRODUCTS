@@ -71,3 +71,13 @@ C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\BusinessLogic.d
 C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\DataBase.dll
 C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\BusinessLogic.pdb
 C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\DataBase.pdb
+C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\bin\Debug\netcoreapp3.1\BusinessLogic.dll
+C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\bin\Debug\netcoreapp3.1\DataBase.dll
+C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\bin\Debug\netcoreapp3.1\BusinessLogic.pdb
+C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\bin\Debug\netcoreapp3.1\DataBase.pdb
+C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.csproj.CopyComplete
