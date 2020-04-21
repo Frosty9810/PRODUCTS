@@ -24,6 +24,8 @@
     ".NETCoreApp,Version=v3.1": {
       "PRODUCTS/1.0.0": {
         "dependencies": {
+          "BusinessLogic": "1.0.0",
+          "DataBase": "1.0.0",
           "Swashbuckle.AspNetCore.Swagger": "5.3.3",
           "Swashbuckle.AspNetCore.SwaggerGen": "5.3.3",
           "Swashbuckle.AspNetCore.SwaggerUI": "5.3.3",
@@ -365,6 +367,25 @@
         },
         "compile": {
           "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {}
+        }
+      },
+      "BusinessLogic/1.0.0": {
+        "dependencies": {
+          "DataBase": "1.0.0"
+        },
+        "runtime": {
+          "BusinessLogic.dll": {}
+        },
+        "compile": {
+          "BusinessLogic.dll": {}
+        }
+      },
+      "DataBase/1.0.0": {
+        "runtime": {
+          "DataBase.dll": {}
+        },
+        "compile": {
+          "DataBase.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -2094,6 +2115,16 @@
       "sha512": "sha512-eWzYYfp1Y2Qzf7UtzfA863NBdIAFjNXl7tLGejTJ+KU+omWzRf5SLc7HLQk61MGMhs2N2fwNPGK7THx/KzhqvQ==",
       "path": "swashbuckle.aspnetcore.swaggerui/5.3.3",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.5.3.3.nupkg.sha512"
+    },
+    "BusinessLogic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DataBase/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
       "type": "referenceassembly",

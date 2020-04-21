@@ -67,3 +67,7 @@ C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\Swashbuckle.Asp
 C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.MvcApplicationPartsAssemblyInfo.cs
 C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.csproj.CopyComplete
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\BusinessLogic.dll
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\DataBase.dll
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\BusinessLogic.pdb
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\DataBase.pdb

@@ -52,6 +52,29 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "BusinessLogic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "DataBase": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BusinessLogic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BusinessLogic.dll": {}
+        }
+      },
+      "DataBase/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/DataBase.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataBase.dll": {}
+        }
       }
     }
   },
@@ -117,10 +140,22 @@
         "swashbuckle.aspnetcore.swaggerui.5.3.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "BusinessLogic/1.0.0": {
+      "type": "project",
+      "path": "../BusinessLogic/BusinessLogic.csproj",
+      "msbuildProject": "../BusinessLogic/BusinessLogic.csproj"
+    },
+    "DataBase/1.0.0": {
+      "type": "project",
+      "path": "../DataBase/DataBase.csproj",
+      "msbuildProject": "../DataBase/DataBase.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "BusinessLogic >= 1.0.0",
+      "DataBase >= 1.0.0",
       "Swashbuckle.AspNetCore.Swagger >= 5.3.3",
       "Swashbuckle.AspNetCore.SwaggerGen >= 5.3.3",
       "Swashbuckle.AspNetCore.SwaggerUi >= 5.3.3"
@@ -151,7 +186,14 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Stefano\\Cetificacion1\\Grupo2\\BusinessLogic\\BusinessLogic.csproj": {
+              "projectPath": "C:\\Stefano\\Cetificacion1\\Grupo2\\BusinessLogic\\BusinessLogic.csproj"
+            },
+            "C:\\Stefano\\Cetificacion1\\Grupo2\\DataBase\\DataBase.csproj": {
+              "projectPath": "C:\\Stefano\\Cetificacion1\\Grupo2\\DataBase\\DataBase.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

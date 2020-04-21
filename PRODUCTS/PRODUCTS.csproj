@@ -14,5 +14,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUi" Version="5.3.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="../BusinessLogic/BusinessLogic.csproj" />
+    <ProjectReference Include="../DataBase/DataBase.csproj" />
+  </ItemGroup>
+
 
 </Project>
