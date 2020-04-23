@@ -10,8 +10,5 @@ namespace PRODUCTS.BusinessLogic
     public interface IProductsListLogic
     {
         public List<ProductDTO> GetListProducts();
-        public Product CreateProduct(Product product);
-        public Product deleteProduct(string code);
-        public Product updateProduct(string code, string name, string type, int stock);
     }
 }

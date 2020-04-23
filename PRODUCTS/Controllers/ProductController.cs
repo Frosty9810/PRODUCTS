@@ -1,43 +1,50 @@
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-//using PRODUCTS.DTOModels;
+
+using PRODUCTS.BusinessLogic;
+using PRODUCTS.DTOModels;
 
 namespace PRODUCTS.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("Products")]
     [ApiController]
     public class ProductController : ControllerBase
     {
-        public ProductController()
+       private readonly IProductLogic _productLogic;
+        public ProductController(IProductLogic productLogic)
         {
+            _productLogic = productLogic;
         }
 
         // GET api/product
         [HttpGet]
-        public IEnumerable<string> GetAll()
+        public List<ProductDTO> GetAll()
         {
-            return new List<string> { };
+            return _productLogic.GetAll();
         }
         
         // POST api/product
         [HttpPost]
-        public void Post([FromBody] string value)
+        [Route("product")]
+        public void Post([FromBody] ProductDTO newproductDTO)
         {
+            _productLogic.CreateProduct(newproductDTO);
         }
 
         // PUT api/product/5
-        [HttpPut("{id}")]
-        public void Put(int id,[FromBody] string value)
+        [HttpPut]
+        [Route("product/{id}")]
+        public void Put(string id,[FromBody] ProductDTO updateProduct)
         {
+            _productLogic.updateProduct(updateProduct, id);
         }
 
         // DELETE api/product/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
+        [HttpDelete]
+        [Route("product/{id}")]
+        public void Delete(string id)
         {
+            _productLogic.deleteProduct(id);
         }
         
     }
