@@ -16,12 +16,10 @@ namespace PRODUCTS.Controllers
     public class ProductListController : ControllerBase
     {
         private readonly IProductsListLogic _productLisLogic;
-         private readonly IProductsDB  _productTableDB;
-        public ProductListController(IProductsListLogic productListLogic, IProductsDB productTableDB)
+        public ProductListController(IProductsListLogic productListLogic)
         {
 
             _productLisLogic = productListLogic;
-            _productTableDB = productTableDB;
 
         }
 
@@ -33,24 +31,5 @@ namespace PRODUCTS.Controllers
 
             return _productLisLogic.GetListProducts();
         }
-
-        [HttpPost]
-        public Product Post ([FromBody] Product product)
-        {       
-            return _productLisLogic.CreateProduct(product);
-        }
-
-         [HttpPut("{id}")]
-        public Product Put(string id,[FromBody] Product product)
-        {
-            return _productLisLogic.updateProduct(id, product.Name, product.Type, product.Stock );
-        }
-
-        [HttpDelete("{id}")]
-        public Product Delete(string id)
-        {
-            return _productLisLogic.deleteProduct(id);
-        }
-
     }
 }

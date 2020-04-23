@@ -28,8 +28,12 @@ namespace PRODUCTS
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+
             services.AddTransient<IProductsListLogic, ProductsListLogic>();
-            services.AddTransient<IProductsDB, ProductTableDB>();
+
+            services.AddTransient<IProductLogic, ProductLogic>();
+
+            services.AddSingleton<IProductsDB, ProductTableDB>();
 
             services.AddSwaggerGen(c =>
             {
