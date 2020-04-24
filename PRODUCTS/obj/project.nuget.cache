@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Y4q1ZJadOTJeoFudcd9AwpbAUnoxDH8r0XpyVaWupQNf04Fc0VMKqwRa+e8GNP+qDmwFOGSTxMvPXHxo4knL+w==",
+  "dgSpecHash": "+c6J07vYutPV4DY9S7Pa1bxjwZttRqNaCF35RoIG+scF6R14UmRARS0kQH/dbRzSuIs//nAwvHpY0ywgl5JigQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\froil\\Desktop\\tempora\\SegundoParcial\\PRODUCTS\\PRODUCTS.csproj",
+  "projectFilePath": "C:\\Users\\HP\\Documents\\2020-UPB\\I\\Certificacion I\\Grupo2\\PRODUCTS\\PRODUCTS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\froil\\.nuget\\packages\\microsoft.openapi\\1.1.4\\microsoft.openapi.1.1.4.nupkg.sha512",
-    "C:\\Users\\froil\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.3.3\\swashbuckle.aspnetcore.swagger.5.3.3.nupkg.sha512",
-    "C:\\Users\\froil\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.3.3\\swashbuckle.aspnetcore.swaggergen.5.3.3.nupkg.sha512",
-    "C:\\Users\\froil\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.3.3\\swashbuckle.aspnetcore.swaggerui.5.3.3.nupkg.sha512"
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.openapi\\1.1.4\\microsoft.openapi.1.1.4.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.3.3\\swashbuckle.aspnetcore.swagger.5.3.3.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.3.3\\swashbuckle.aspnetcore.swaggergen.5.3.3.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.3.3\\swashbuckle.aspnetcore.swaggerui.5.3.3.nupkg.sha512"
   ],
   "logs": []
 }
