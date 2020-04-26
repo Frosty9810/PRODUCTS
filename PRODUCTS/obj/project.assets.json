@@ -162,23 +162,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HP\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\froil\\.nuget\\packages\\": {},
+    "C:\\ProgramData\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Documents\\2020-UPB\\I\\Certificacion I\\Grupo2\\PRODUCTS\\PRODUCTS.csproj",
+      "projectUniqueName": "C:\\Users\\froil\\Desktop\\tempora\\SegundoParcial\\PRODUCTS\\PRODUCTS.csproj",
       "projectName": "PRODUCTS",
-      "projectPath": "C:\\Users\\HP\\Documents\\2020-UPB\\I\\Certificacion I\\Grupo2\\PRODUCTS\\PRODUCTS.csproj",
-      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Documents\\2020-UPB\\I\\Certificacion I\\Grupo2\\PRODUCTS\\obj\\",
+      "projectPath": "C:\\Users\\froil\\Desktop\\tempora\\SegundoParcial\\PRODUCTS\\PRODUCTS.csproj",
+      "packagesPath": "C:\\Users\\froil\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\froil\\Desktop\\tempora\\SegundoParcial\\PRODUCTS\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\ProgramData\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\froil\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -192,11 +194,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\HP\\Documents\\2020-UPB\\I\\Certificacion I\\Grupo2\\BusinessLogic\\BusinessLogic.csproj": {
-              "projectPath": "C:\\Users\\HP\\Documents\\2020-UPB\\I\\Certificacion I\\Grupo2\\BusinessLogic\\BusinessLogic.csproj"
+            "C:\\Users\\froil\\Desktop\\tempora\\SegundoParcial\\BusinessLogic\\BusinessLogic.csproj": {
+              "projectPath": "C:\\Users\\froil\\Desktop\\tempora\\SegundoParcial\\BusinessLogic\\BusinessLogic.csproj"
             },
-            "C:\\Users\\HP\\Documents\\2020-UPB\\I\\Certificacion I\\Grupo2\\DataBase\\DataBase.csproj": {
-              "projectPath": "C:\\Users\\HP\\Documents\\2020-UPB\\I\\Certificacion I\\Grupo2\\DataBase\\DataBase.csproj"
+            "C:\\Users\\froil\\Desktop\\tempora\\SegundoParcial\\DataBase\\DataBase.csproj": {
+              "projectPath": "C:\\Users\\froil\\Desktop\\tempora\\SegundoParcial\\DataBase\\DataBase.csproj"
             }
           }
         }

@@ -43,18 +43,39 @@ namespace PRODUCTS.BusinessLogic
         }
         public void CreateProduct(ProductDTO newProduct)
         {
+            bool flag = false;
+
             List<Product> allProducts = _productTableDB.GetAll();
 
-            ProductDTO productCode = generateCode(allProducts, newProduct);
+            Product productDB = new Product();
 
-            Product product = new Product();
+            foreach(Product product in allProducts)
+            {
+                if(product.Code == newProduct.Code)
+                {
+                    newProduct.Name = product.Name;
+                    newProduct.Type = product.Type;
+                    newProduct.Stock = product.Stock + newProduct.Stock;
+                    productDB.Code = product.Code;
+                    flag = true;
+                }
+            }
 
-            product.Name = productCode.Name;
-            product.Type = productCode.Type;
-            product.Code = productCode.Code;
-            product.Stock = productCode.Stock;
+            if(flag)
+            {
+                updateProduct(newProduct, productDB.Code);
+            }
+            else
+            {
+                ProductDTO productCode = generateCode(allProducts, newProduct);
 
-            _productTableDB.AddNew(product);
+                productDB.Name = productCode.Name;
+                productDB.Type = productCode.Type;
+                productDB.Code = productCode.Code;
+                productDB.Stock = productCode.Stock;
+
+                _productTableDB.AddNew(productDB);
+            }
 
         }
         public void readProduct(List<Product> listProducts , Product productR)
