@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Y4q1ZJadOTJeoFudcd9AwpbAUnoxDH8r0XpyVaWupQNf04Fc0VMKqwRa+e8GNP+qDmwFOGSTxMvPXHxo4knL+w==",
+  "dgSpecHash": "oZM67+V12u+eVKtTSdTJq0ZNW00weV8k93DADInqQYGovM5Y2/Zs4lDyM5zVW2Bh0BvaLUSKpbszKnHb17G6sg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\froil\\Desktop\\tempora\\SegundoParcial\\PRODUCTS\\PRODUCTS.csproj",
+  "projectFilePath": "C:\\Stefano\\Cetificacion1\\Grupo2\\PRODUCTS\\PRODUCTS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\froil\\.nuget\\packages\\microsoft.openapi\\1.1.4\\microsoft.openapi.1.1.4.nupkg.sha512",
-    "C:\\Users\\froil\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.3.3\\swashbuckle.aspnetcore.swagger.5.3.3.nupkg.sha512",
-    "C:\\Users\\froil\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.3.3\\swashbuckle.aspnetcore.swaggergen.5.3.3.nupkg.sha512",
-    "C:\\Users\\froil\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.3.3\\swashbuckle.aspnetcore.swaggerui.5.3.3.nupkg.sha512"
+    "C:\\Users\\tenos\\.nuget\\packages\\microsoft.openapi\\1.1.4\\microsoft.openapi.1.1.4.nupkg.sha512",
+    "C:\\Users\\tenos\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.3.3\\swashbuckle.aspnetcore.swagger.5.3.3.nupkg.sha512",
+    "C:\\Users\\tenos\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.3.3\\swashbuckle.aspnetcore.swaggergen.5.3.3.nupkg.sha512",
+    "C:\\Users\\tenos\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.3.3\\swashbuckle.aspnetcore.swaggerui.5.3.3.nupkg.sha512"
   ],
   "logs": []
 }

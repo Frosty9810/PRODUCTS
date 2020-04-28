@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 
 using PRODUCTS.DTOModels;
-using PRODUCTS.DataBase.Models;
 
 namespace PRODUCTS.BusinessLogic
 {

@@ -162,27 +162,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\froil\\.nuget\\packages\\": {},
-    "C:\\ProgramData\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\tenos\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\froil\\Desktop\\tempora\\SegundoParcial\\PRODUCTS\\PRODUCTS.csproj",
+      "projectUniqueName": "C:\\Stefano\\Cetificacion1\\Grupo2\\PRODUCTS\\PRODUCTS.csproj",
       "projectName": "PRODUCTS",
-      "projectPath": "C:\\Users\\froil\\Desktop\\tempora\\SegundoParcial\\PRODUCTS\\PRODUCTS.csproj",
-      "packagesPath": "C:\\Users\\froil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\froil\\Desktop\\tempora\\SegundoParcial\\PRODUCTS\\obj\\",
+      "projectPath": "C:\\Stefano\\Cetificacion1\\Grupo2\\PRODUCTS\\PRODUCTS.csproj",
+      "packagesPath": "C:\\Users\\tenos\\.nuget\\packages\\",
+      "outputPath": "C:\\Stefano\\Cetificacion1\\Grupo2\\PRODUCTS\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\ProgramData\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\froil\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\tenos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -194,11 +187,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\froil\\Desktop\\tempora\\SegundoParcial\\BusinessLogic\\BusinessLogic.csproj": {
-              "projectPath": "C:\\Users\\froil\\Desktop\\tempora\\SegundoParcial\\BusinessLogic\\BusinessLogic.csproj"
+            "C:\\Stefano\\Cetificacion1\\Grupo2\\BusinessLogic\\BusinessLogic.csproj": {
+              "projectPath": "C:\\Stefano\\Cetificacion1\\Grupo2\\BusinessLogic\\BusinessLogic.csproj"
             },
-            "C:\\Users\\froil\\Desktop\\tempora\\SegundoParcial\\DataBase\\DataBase.csproj": {
-              "projectPath": "C:\\Users\\froil\\Desktop\\tempora\\SegundoParcial\\DataBase\\DataBase.csproj"
+            "C:\\Stefano\\Cetificacion1\\Grupo2\\DataBase\\DataBase.csproj": {
+              "projectPath": "C:\\Stefano\\Cetificacion1\\Grupo2\\DataBase\\DataBase.csproj"
             }
           }
         }

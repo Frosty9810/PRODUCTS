@@ -23,7 +23,7 @@ namespace PRODUCTS.Controllers
 
         }
 
-        // GET api/list/5
+        
         [HttpGet]
         public IEnumerable<ProductDTO> GetAll()//READ
         {

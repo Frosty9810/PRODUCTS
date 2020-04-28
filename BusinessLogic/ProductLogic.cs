@@ -1,4 +1,4 @@
-﻿using System;
+﻿
 using System.Collections.Generic;
 using System.Linq;
 
@@ -19,12 +19,11 @@ namespace PRODUCTS.BusinessLogic
 
         public List<ProductDTO> GetAll() 
         {
-            // Retrieve all students from database
+            
             List<Product> allProducts = _productTableDB.GetAll();
             
             List<ProductDTO> listToAdd = new List<ProductDTO>();
 
-            // Process all stundents
             foreach (Product product in allProducts)
             {
                 listToAdd.Add(
@@ -53,9 +52,9 @@ namespace PRODUCTS.BusinessLogic
             {
                 if(product.Code == newProduct.Code)
                 {
-                    newProduct.Name = product.Name;
-                    newProduct.Type = product.Type;
-                    newProduct.Stock = product.Stock + newProduct.Stock;
+                    product.Name = newProduct.Name;
+                    product.Type = newProduct.Type;
+                    product.Stock = newProduct.Stock + product.Stock;
                     productDB.Code = product.Code;
                     flag = true;
                 }

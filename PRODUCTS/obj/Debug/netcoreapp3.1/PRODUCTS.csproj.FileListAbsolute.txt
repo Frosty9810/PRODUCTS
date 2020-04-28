@@ -93,3 +93,4 @@ C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\obj\Debug\netco
 C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.csproj.CopyComplete
 C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\appsettings.QA.json
 C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\bin\Debug\netcoreapp3.1\appsettings.QA.json
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\appsettings.QA.json

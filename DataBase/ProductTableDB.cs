@@ -12,9 +12,9 @@ namespace PRODUCTS.DataBase
         {
             products = new List<Product>()
             {
-                new Product() { Name = "objeto1", Type = "Soccer", Code = "SOCCER-001" , Stock = 1},
-                new Product() { Name = "objeto2", Type = "Basket", Code = "BASKET-001" , Stock = 1 },
-                new Product() { Name = "objeto3", Type = "Soccer", Code = "SOCCER-002" , Stock = 1}
+                new Product() { Name = "objeto1", Type = "SOCCER", Code = "SOCCER-1" , Stock = 1},
+                new Product() { Name = "objeto2", Type = "BASKET", Code = "BASKET-1" , Stock = 1 },
+                new Product() { Name = "objeto3", Type = "SOCCER", Code = "SOCCER-2" , Stock = 1}
             };
         }
 
