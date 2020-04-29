@@ -122,10 +122,12 @@ namespace PRODUCTS.BusinessLogic
                 if (product.Code.Equals(code))
                 {   
                     GetAll().RemoveAt(count);
-                    break;
+                    
+
                 }
                 else
                 {
+ 
                     count += 1;
                 }
             }
@@ -138,11 +140,25 @@ namespace PRODUCTS.BusinessLogic
             IEnumerable<Product> basketList = listToAdd.Where(product => product.Type == "BASKET");
             if(product.Type == "SOCCER"){
                 int id = soccerList.Count()+1;
-                product.Code = "SOCCER-"+id;
+                string code = "SOCCER-"+id;
+                foreach(Product sl in soccerList){
+                    if(code == sl.Code){
+                        id +=1;
+                        code = "SOCCER-"+id;
+                    }
+                }
+                product.Code = code;
             }
             if(product.Type == "BASKET"){
                 int id = basketList.Count() + 1;
-                product.Code = "BASKET-"+id;
+                string code = "BASKET-"+id;
+                foreach(Product sl in soccerList){
+                    if(code == sl.Code){
+                        id +=1;
+                        code = "BASKET-"+id;
+                    }
+                }
+                product.Code = code;
             }
             return product;
         }
