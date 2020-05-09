@@ -1,32 +1,18 @@
-Inventario de productos (PRODUCTS) Stefano Sossi, Gabriel Acosta, Josue Cardozo, Pedro Gonzales. (GRUPO 2)
+Inventario de productos (PRODUCTS) Juan Diego García,Brami Prudencio ,Pablo Rivas, Vincent Valenzuela. (GRUPO 2)
 
 Dado que la empresa se dedica a vender poleras deportivas, me gustaría manejar el inventario de la sgte
 forma:
 
-Estructura (MASTER y REPOSITORIO GIT) ---<Gabriel Acosta>
-
-BusinessLogic --<Stefano Sossi>
-Controllers --<Gabriel Acosta>
-Database --<Josue Cardozo>
-DTOModels --<Stafano Sossi, Pedro Gonzales>
-
-● Operaciones básicas (CRUD) para tener acceso a mis productos
-CREATE 
-READ 
-UPDATE 
-DELETE 
-----<Josue Cardozo>
+● Que los endpoints sean parte del API GATEWAY
+        /api-crm/products HTTP/GET: http://localhost:XXXX/products => send/return same values
+        /api-crm/products/{id}
+        etc
+● Que los datos sean persistidos en una base de datos como: JSON file (configurable)●
+    c:\websites\crm\products.jso●n
+● Que la aplicación PRODUCTS contenga manejo de errores
+● Que la aplicación PRODUCTS contenga registro logs
+● OPCIONAL: API GATEWAY: Implementar manejo de errores
+● OPCIONAL: Crear una interfaz gráfica sencilla usando VUE.JS
+Lista Productos (CRUD)
 
 
-
-● Los datos de cada producto que me gustaría almacenar son:
-    o Nombre del Producto
-    o Tipos de Producto: SOCCER o BASKET
-    o Código del Producto (autogenerado, único)
-
-▪ Si es un artículo de futbol: SOCCER-XXX (donde XXX es el número correlativo
-según se van agregando items)
-
-▪ Si es un artículo de Basket: BASKET-XXX (donde XXX es el número correlativo
-según se van agregando items)
-    o Stock, número de items en almacén
