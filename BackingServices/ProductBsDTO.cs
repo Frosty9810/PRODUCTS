@@ -1,4 +1,4 @@
-namespace BackingServices
+namespace Services
 {
     public class ProductBsDTO
     {

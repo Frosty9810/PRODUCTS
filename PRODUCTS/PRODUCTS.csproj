@@ -16,8 +16,6 @@
 
   <ItemGroup>
     <ProjectReference Include="../BusinessLogic/BusinessLogic.csproj" />
-    <ProjectReference Include="../DataBase/DataBase.csproj" />
+    <ProjectReference Include="../BackingServices/BackingServices.csproj" />
   </ItemGroup>
-
-
 </Project>

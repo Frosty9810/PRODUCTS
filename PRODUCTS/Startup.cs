@@ -1,19 +1,12 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using PRODUCTS.DataBase;
 using PRODUCTS.BusinessLogic;
-using Serilog;
-using Serilog.Events;
+using Services;
+
 
 namespace PRODUCTS
 {
@@ -39,14 +32,29 @@ namespace PRODUCTS
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-
+            // Business Logic
             services.AddTransient<IProductsListLogic, ProductsListLogic>();
-
             services.AddTransient<IProductLogic, ProductLogic>();
+            // Database Layer
+            //services.AddSingleton<IProductDBManager, ProductDBManager>();
+            services.AddTransient<IProductListDBManager, ProductListDBManager>();
 
-            services.AddSingleton<IProductsDB, ProductTableDB>();
+            services.AddTransient<IProductBackingService, ProductBackingService>();
 
-             var swaggerTitle = Configuration
+            // ADDING CORS
+            // 1. Update launch settings according with config
+            // 2. Add this block to startup (ConfigureServices)
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAll",
+                    builder => builder.WithOrigins("*")
+                                      .AllowAnyHeader()
+                                      .AllowAnyMethod()
+                                      );
+            });
+            // End CORS block
+
+            var swaggerTitle = Configuration
                 .GetSection(SWAGGER_SECTION_SETTING_KEY)
                 .GetSection(SWAGGER_SECTION_SETTING_TITLE_KEY);
             var swaggerVersion = Configuration

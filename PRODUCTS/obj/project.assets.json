@@ -1989,11 +1989,25 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
+      "BackingServices/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "3.1.3",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "bin/placeholder/BackingServices.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BackingServices.dll": {}
+        }
+      },
       "BusinessLogic/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "DataBase": "1.0.0"
+          "Database": "1.0.0"
         },
         "compile": {
           "bin/placeholder/BusinessLogic.dll": {}
@@ -2002,7 +2016,7 @@
           "bin/placeholder/BusinessLogic.dll": {}
         }
       },
-      "DataBase/1.0.0": {
+      "Database/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
@@ -2014,10 +2028,10 @@
           "Serilog.Sinks.RollingFile": "3.3.0"
         },
         "compile": {
-          "bin/placeholder/DataBase.dll": {}
+          "bin/placeholder/Database.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DataBase.dll": {}
+          "bin/placeholder/Database.dll": {}
         }
       }
     }
@@ -2439,7 +2453,6 @@
       "path": "microsoft.netcore.targets/1.1.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -3112,7 +3125,6 @@
       "path": "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple.4.3.0.nupkg.sha512",
@@ -3541,7 +3553,6 @@
       "path": "system.composition.attributedmodel/1.0.31",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/System.Composition.AttributedModel.dll",
@@ -4809,7 +4820,6 @@
       "path": "system.reflection.emit/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4845,7 +4855,6 @@
       "path": "system.reflection.emit.ilgeneration/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5632,7 +5641,6 @@
       "path": "system.security.cryptography.cng/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/net46/System.Security.Cryptography.Cng.dll",
@@ -6460,21 +6468,26 @@
         "system.xml.xdocument.nuspec"
       ]
     },
+    "BackingServices/1.0.0": {
+      "type": "project",
+      "path": "../BackingServices/BackingServices.csproj",
+      "msbuildProject": "../BackingServices/BackingServices.csproj"
+    },
     "BusinessLogic/1.0.0": {
       "type": "project",
       "path": "../BusinessLogic/BusinessLogic.csproj",
       "msbuildProject": "../BusinessLogic/BusinessLogic.csproj"
     },
-    "DataBase/1.0.0": {
+    "Database/1.0.0": {
       "type": "project",
-      "path": "../DataBase/DataBase.csproj",
-      "msbuildProject": "../DataBase/DataBase.csproj"
+      "path": "../DataBase/Database.csproj",
+      "msbuildProject": "../DataBase/Database.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "BackingServices >= 1.0.0",
       "BusinessLogic >= 1.0.0",
-      "DataBase >= 1.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.2",
       "Serilog >= 2.9.0",
       "Serilog.Sinks.Console >= 3.1.1",
@@ -6485,34 +6498,40 @@
     ]
   },
   "packageFolders": {
-    "/home/vincent/.nuget/packages/": {}
+    "C:\\Users\\bramo\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/PRODUCTS.csproj",
+      "projectUniqueName": "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj",
       "projectName": "PRODUCTS",
-      "projectPath": "/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/PRODUCTS.csproj",
-      "packagesPath": "/home/vincent/.nuget/packages/",
-      "outputPath": "/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/obj/",
+      "projectPath": "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj",
+      "packagesPath": "C:\\Users\\bramo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\PRODUCTS\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "/home/vincent/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\bramo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "/media/vincent/Samsung_T5/PRODUCTS/BusinessLogic/BusinessLogic.csproj": {
-              "projectPath": "/media/vincent/Samsung_T5/PRODUCTS/BusinessLogic/BusinessLogic.csproj"
+            "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\BackingServices\\BackingServices.csproj": {
+              "projectPath": "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\BackingServices\\BackingServices.csproj"
             },
-            "/media/vincent/Samsung_T5/PRODUCTS/DataBase/DataBase.csproj": {
-              "projectPath": "/media/vincent/Samsung_T5/PRODUCTS/DataBase/DataBase.csproj"
+            "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj": {
+              "projectPath": "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj"
             }
           }
         }
@@ -6573,7 +6592,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

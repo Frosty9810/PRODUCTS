@@ -1,10 +1,10 @@
 using System.Collections.Generic;
-
+using Database;
 using PRODUCTS.DataBase.Models;
 
 namespace PRODUCTS.DataBase
 {
-    public interface IProductsDB 
+    public interface IProductListDBManager : IDBManager
     {
         public List<Product> GetAll();
         public void AddNew(Product newProduct);

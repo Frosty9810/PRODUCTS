@@ -1,8 +1,10 @@
-﻿using System;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 
-namespace BackingServices
+namespace Services
 {
-    public class IProductBackingService
+    public interface IProductBackingService
     {
+        public Task<List<ProductBsDTO>> GetAllProduct();
     }
 }

@@ -6,7 +6,7 @@ using PRODUCTS.DTOModels;
 
 namespace PRODUCTS.Controllers
 {
-   // [Route("Products")]
+    //[Route("Products")]
     [ApiController]
     public class ProductController : ControllerBase
     {
@@ -47,6 +47,5 @@ namespace PRODUCTS.Controllers
         {
             _productLogic.deleteProduct(id);
         }
-        
     }
 }

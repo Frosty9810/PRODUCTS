@@ -1,18 +1,17 @@
-﻿
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-
-using PRODUCTS.DataBase;
 using PRODUCTS.DataBase.Models;
 using PRODUCTS.DTOModels;
+using PRODUCTS.DataBase;
 
 namespace PRODUCTS.BusinessLogic
 {
     public class ProductLogic : IProductLogic
     {
-        private readonly IProductsDB  _productTableDB;
+        private readonly IProductListDBManager _productTableDB;
 
-        public ProductLogic(IProductsDB productTableDB) 
+        public ProductLogic(IProductListDBManager productTableDB) 
         {
             _productTableDB = productTableDB;
         }
@@ -21,7 +20,6 @@ namespace PRODUCTS.BusinessLogic
         {
             
             List<Product> allProducts = _productTableDB.GetAll();
-            
             List<ProductDTO> listToAdd = new List<ProductDTO>();
 
             foreach (Product product in allProducts)
@@ -33,11 +31,10 @@ namespace PRODUCTS.BusinessLogic
                         Type = product.Type, 
                         Code = product.Code, 
                         Stock = product.Stock
-                        
                     }
                 );
             }
-            
+
             return listToAdd;
         }
         public void CreateProduct(ProductDTO newProduct)
@@ -95,16 +92,27 @@ namespace PRODUCTS.BusinessLogic
             {
                 if (product.Code.Equals(code))
                 {   
-                    product.Name = upProduct.Name;
-                    product.Type = upProduct.Type;
-                    product.Code = code;
-                    product.Stock = upProduct.Stock;
+                    if (product.Name != null && product.Name != "")
+                    {
+                        product.Name = upProduct.Name;
+                    }
+                    if (product.Type != null && product.Type != "")
+                    {
+                        product.Type = upProduct.Type;
+                    }
+                    if (product.Code != null && product.Code != "")
+                    {
+                        product.Code = code;
+                    }
+                    if (product.Stock != 0)
+                    {
+                        product.Stock = upProduct.Stock;
+                    }
                     break;
                 }
             }
 
             Product productDB = new Product();
-
             productDB.Name = upProduct.Name;
             productDB.Type = upProduct.Type;
             productDB.Code = code;
@@ -122,16 +130,12 @@ namespace PRODUCTS.BusinessLogic
                 if (product.Code.Equals(code))
                 {   
                     GetAll().RemoveAt(count);
-                    
-
                 }
                 else
                 {
- 
                     count += 1;
                 }
             }
-
             _productTableDB.Delete(code);
         }
 
@@ -162,6 +166,5 @@ namespace PRODUCTS.BusinessLogic
             }
             return product;
         }
-    
     }
 }
