@@ -11,7 +11,7 @@ using PRODUCTS.DataBase;
 
 namespace PRODUCTS.Controllers
 {
-    [Route("api/ProductList")]
+  //  [Route("api/ProductList")]
     [ApiController]
     public class ProductListController : ControllerBase
     {
@@ -25,6 +25,7 @@ namespace PRODUCTS.Controllers
 
         
         [HttpGet]
+        [Route("product/product-list")]
         public IEnumerable<ProductDTO> GetAll()//READ
         {
             //DEPENDENCY INJECTION.

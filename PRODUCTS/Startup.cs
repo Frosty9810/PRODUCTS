@@ -12,6 +12,8 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using PRODUCTS.DataBase;
 using PRODUCTS.BusinessLogic;
+using Serilog;
+using Serilog.Events;
 
 namespace PRODUCTS
 {

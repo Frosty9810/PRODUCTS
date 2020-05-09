@@ -6,7 +6,7 @@ using PRODUCTS.DTOModels;
 
 namespace PRODUCTS.Controllers
 {
-    [Route("Products")]
+   // [Route("Products")]
     [ApiController]
     public class ProductController : ControllerBase
     {
@@ -18,6 +18,7 @@ namespace PRODUCTS.Controllers
 
         // GET api/product
         [HttpGet]
+        [Route("product")]
         public List<ProductDTO> GetAll()
         {
             return _productLogic.GetAll();

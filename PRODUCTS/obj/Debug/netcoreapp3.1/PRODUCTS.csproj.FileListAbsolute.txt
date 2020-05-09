@@ -1,96 +1,278 @@
-C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\bin\Debug\netcoreapp3.1\appsettings.Development.json
-C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
-C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.exe
-C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.deps.json
-C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.runtimeconfig.json
-C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.runtimeconfig.dev.json
-C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.dll
-C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.pdb
-C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.csprojAssemblyReference.cache
-C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.csproj.CoreCompileInputs.cache
-C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.AssemblyInfoInputs.cache
-C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.AssemblyInfo.cs
-C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.RazorTargetAssemblyInfo.cache
-C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\obj\Debug\netcoreapp3.1\staticwebassets\PRODUCTS.StaticWebAssets.Manifest.cache
-C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\obj\Debug\netcoreapp3.1\staticwebassets\PRODUCTS.StaticWebAssets.xml
-C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.dll
-C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.pdb
-C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.genruntimeconfig.cache
+C:/Users/froil/Desktop/tempora/SegundoParcial/PRODUCTS/bin/Debug/netcoreapp3.1/appsettings.Development.json
+C:/Users/froil/Desktop/tempora/SegundoParcial/PRODUCTS/bin/Debug/netcoreapp3.1/appsettings.json
+C:/Users/froil/Desktop/tempora/SegundoParcial/PRODUCTS/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
+C:/Users/froil/Desktop/tempora/SegundoParcial/PRODUCTS/bin/Debug/netcoreapp3.1/PRODUCTS.exe
+C:/Users/froil/Desktop/tempora/SegundoParcial/PRODUCTS/bin/Debug/netcoreapp3.1/PRODUCTS.deps.json
+C:/Users/froil/Desktop/tempora/SegundoParcial/PRODUCTS/bin/Debug/netcoreapp3.1/PRODUCTS.runtimeconfig.json
+C:/Users/froil/Desktop/tempora/SegundoParcial/PRODUCTS/bin/Debug/netcoreapp3.1/PRODUCTS.runtimeconfig.dev.json
+C:/Users/froil/Desktop/tempora/SegundoParcial/PRODUCTS/bin/Debug/netcoreapp3.1/PRODUCTS.dll
+C:/Users/froil/Desktop/tempora/SegundoParcial/PRODUCTS/bin/Debug/netcoreapp3.1/PRODUCTS.pdb
+C:/Users/froil/Desktop/tempora/SegundoParcial/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.csprojAssemblyReference.cache
+C:/Users/froil/Desktop/tempora/SegundoParcial/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.csproj.CoreCompileInputs.cache
+C:/Users/froil/Desktop/tempora/SegundoParcial/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/froil/Desktop/tempora/SegundoParcial/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.AssemblyInfoInputs.cache
+C:/Users/froil/Desktop/tempora/SegundoParcial/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.AssemblyInfo.cs
+C:/Users/froil/Desktop/tempora/SegundoParcial/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.RazorTargetAssemblyInfo.cache
+C:/Users/froil/Desktop/tempora/SegundoParcial/PRODUCTS/obj/Debug/netcoreapp3.1/staticwebassets/PRODUCTS.StaticWebAssets.Manifest.cache
+C:/Users/froil/Desktop/tempora/SegundoParcial/PRODUCTS/obj/Debug/netcoreapp3.1/staticwebassets/PRODUCTS.StaticWebAssets.xml
+C:/Users/froil/Desktop/tempora/SegundoParcial/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.dll
+C:/Users/froil/Desktop/tempora/SegundoParcial/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.pdb
+C:/Users/froil/Desktop/tempora/SegundoParcial/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.genruntimeconfig.cache
 <<<<<<< HEAD
-C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\appsettings.Development.json
-C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
-C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.exe
-C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.deps.json
-C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.runtimeconfig.json
-C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.runtimeconfig.dev.json
-C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.dll
-C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.pdb
-C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.csprojAssemblyReference.cache
-C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.csproj.CoreCompileInputs.cache
-C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.AssemblyInfoInputs.cache
-C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.AssemblyInfo.cs
-C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.RazorTargetAssemblyInfo.cache
-C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\staticwebassets\PRODUCTS.StaticWebAssets.Manifest.cache
-C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\staticwebassets\PRODUCTS.StaticWebAssets.xml
-C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.dll
-C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.pdb
-C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.genruntimeconfig.cache
+C:/Users/HP/Documents/2020-UPB/I/Certificacion I/Grupo2/PRODUCTS/bin/Debug/netcoreapp3.1/appsettings.Development.json
+C:/Users/HP/Documents/2020-UPB/I/Certificacion I/Grupo2/PRODUCTS/bin/Debug/netcoreapp3.1/appsettings.json
+C:/Users/HP/Documents/2020-UPB/I/Certificacion I/Grupo2/PRODUCTS/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
+C:/Users/HP/Documents/2020-UPB/I/Certificacion I/Grupo2/PRODUCTS/bin/Debug/netcoreapp3.1/PRODUCTS.exe
+C:/Users/HP/Documents/2020-UPB/I/Certificacion I/Grupo2/PRODUCTS/bin/Debug/netcoreapp3.1/PRODUCTS.deps.json
+C:/Users/HP/Documents/2020-UPB/I/Certificacion I/Grupo2/PRODUCTS/bin/Debug/netcoreapp3.1/PRODUCTS.runtimeconfig.json
+C:/Users/HP/Documents/2020-UPB/I/Certificacion I/Grupo2/PRODUCTS/bin/Debug/netcoreapp3.1/PRODUCTS.runtimeconfig.dev.json
+C:/Users/HP/Documents/2020-UPB/I/Certificacion I/Grupo2/PRODUCTS/bin/Debug/netcoreapp3.1/PRODUCTS.dll
+C:/Users/HP/Documents/2020-UPB/I/Certificacion I/Grupo2/PRODUCTS/bin/Debug/netcoreapp3.1/PRODUCTS.pdb
+C:/Users/HP/Documents/2020-UPB/I/Certificacion I/Grupo2/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.csprojAssemblyReference.cache
+C:/Users/HP/Documents/2020-UPB/I/Certificacion I/Grupo2/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.csproj.CoreCompileInputs.cache
+C:/Users/HP/Documents/2020-UPB/I/Certificacion I/Grupo2/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/HP/Documents/2020-UPB/I/Certificacion I/Grupo2/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.AssemblyInfoInputs.cache
+C:/Users/HP/Documents/2020-UPB/I/Certificacion I/Grupo2/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.AssemblyInfo.cs
+C:/Users/HP/Documents/2020-UPB/I/Certificacion I/Grupo2/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.RazorTargetAssemblyInfo.cache
+C:/Users/HP/Documents/2020-UPB/I/Certificacion I/Grupo2/PRODUCTS/obj/Debug/netcoreapp3.1/staticwebassets/PRODUCTS.StaticWebAssets.Manifest.cache
+C:/Users/HP/Documents/2020-UPB/I/Certificacion I/Grupo2/PRODUCTS/obj/Debug/netcoreapp3.1/staticwebassets/PRODUCTS.StaticWebAssets.xml
+C:/Users/HP/Documents/2020-UPB/I/Certificacion I/Grupo2/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.dll
+C:/Users/HP/Documents/2020-UPB/I/Certificacion I/Grupo2/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.pdb
+C:/Users/HP/Documents/2020-UPB/I/Certificacion I/Grupo2/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.genruntimeconfig.cache
 =======
-C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\appsettings.Development.json
-C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
-C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.exe
-C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.deps.json
-C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.runtimeconfig.json
-C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.runtimeconfig.dev.json
-C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.dll
-C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.pdb
-C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.csprojAssemblyReference.cache
-C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.csproj.CoreCompileInputs.cache
-C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.MvcApplicationPartsAssemblyInfo.cache
-C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.AssemblyInfoInputs.cache
-C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.AssemblyInfo.cs
-C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.RazorTargetAssemblyInfo.cache
-C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\staticwebassets\PRODUCTS.StaticWebAssets.Manifest.cache
-C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\staticwebassets\PRODUCTS.StaticWebAssets.xml
-C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.dll
-C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.pdb
-C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.genruntimeconfig.cache
+C:/Stefano/Cetificacion1/Grupo2/PRODUCTS/bin/Debug/netcoreapp3.1/appsettings.Development.json
+C:/Stefano/Cetificacion1/Grupo2/PRODUCTS/bin/Debug/netcoreapp3.1/appsettings.json
+C:/Stefano/Cetificacion1/Grupo2/PRODUCTS/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
+C:/Stefano/Cetificacion1/Grupo2/PRODUCTS/bin/Debug/netcoreapp3.1/PRODUCTS.exe
+C:/Stefano/Cetificacion1/Grupo2/PRODUCTS/bin/Debug/netcoreapp3.1/PRODUCTS.deps.json
+C:/Stefano/Cetificacion1/Grupo2/PRODUCTS/bin/Debug/netcoreapp3.1/PRODUCTS.runtimeconfig.json
+C:/Stefano/Cetificacion1/Grupo2/PRODUCTS/bin/Debug/netcoreapp3.1/PRODUCTS.runtimeconfig.dev.json
+C:/Stefano/Cetificacion1/Grupo2/PRODUCTS/bin/Debug/netcoreapp3.1/PRODUCTS.dll
+C:/Stefano/Cetificacion1/Grupo2/PRODUCTS/bin/Debug/netcoreapp3.1/PRODUCTS.pdb
+C:/Stefano/Cetificacion1/Grupo2/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.csprojAssemblyReference.cache
+C:/Stefano/Cetificacion1/Grupo2/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.csproj.CoreCompileInputs.cache
+C:/Stefano/Cetificacion1/Grupo2/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.MvcApplicationPartsAssemblyInfo.cache
+C:/Stefano/Cetificacion1/Grupo2/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.AssemblyInfoInputs.cache
+C:/Stefano/Cetificacion1/Grupo2/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.AssemblyInfo.cs
+C:/Stefano/Cetificacion1/Grupo2/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.RazorTargetAssemblyInfo.cache
+C:/Stefano/Cetificacion1/Grupo2/PRODUCTS/obj/Debug/netcoreapp3.1/staticwebassets/PRODUCTS.StaticWebAssets.Manifest.cache
+C:/Stefano/Cetificacion1/Grupo2/PRODUCTS/obj/Debug/netcoreapp3.1/staticwebassets/PRODUCTS.StaticWebAssets.xml
+C:/Stefano/Cetificacion1/Grupo2/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.dll
+C:/Stefano/Cetificacion1/Grupo2/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.pdb
+C:/Stefano/Cetificacion1/Grupo2/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.genruntimeconfig.cache
 >>>>>>> origin/StefanoDev
-C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
-C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
-C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.MvcApplicationPartsAssemblyInfo.cs
-C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.csproj.CopyComplete
-C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\BusinessLogic.dll
-C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\DataBase.dll
-C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\BusinessLogic.pdb
-C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\DataBase.pdb
-C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
-C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\bin\Debug\netcoreapp3.1\BusinessLogic.dll
-C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\bin\Debug\netcoreapp3.1\DataBase.dll
-C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\bin\Debug\netcoreapp3.1\BusinessLogic.pdb
-C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\bin\Debug\netcoreapp3.1\DataBase.pdb
-C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.csproj.CopyComplete
-C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
-C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\BusinessLogic.dll
-C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\DataBase.dll
-C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\BusinessLogic.pdb
-C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\DataBase.pdb
-C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.csproj.CopyComplete
-C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\appsettings.QA.json
-C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\bin\Debug\netcoreapp3.1\appsettings.QA.json
-C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\appsettings.QA.json
+C:/Stefano/Cetificacion1/Grupo2/PRODUCTS/bin/Debug/netcoreapp3.1/Microsoft.OpenApi.dll
+C:/Stefano/Cetificacion1/Grupo2/PRODUCTS/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.Swagger.dll
+C:/Stefano/Cetificacion1/Grupo2/PRODUCTS/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Stefano/Cetificacion1/Grupo2/PRODUCTS/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Stefano/Cetificacion1/Grupo2/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.MvcApplicationPartsAssemblyInfo.cs
+C:/Stefano/Cetificacion1/Grupo2/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.csproj.CopyComplete
+C:/Stefano/Cetificacion1/Grupo2/PRODUCTS/bin/Debug/netcoreapp3.1/BusinessLogic.dll
+C:/Stefano/Cetificacion1/Grupo2/PRODUCTS/bin/Debug/netcoreapp3.1/DataBase.dll
+C:/Stefano/Cetificacion1/Grupo2/PRODUCTS/bin/Debug/netcoreapp3.1/BusinessLogic.pdb
+C:/Stefano/Cetificacion1/Grupo2/PRODUCTS/bin/Debug/netcoreapp3.1/DataBase.pdb
+C:/Users/froil/Desktop/tempora/SegundoParcial/PRODUCTS/bin/Debug/netcoreapp3.1/Microsoft.OpenApi.dll
+C:/Users/froil/Desktop/tempora/SegundoParcial/PRODUCTS/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/froil/Desktop/tempora/SegundoParcial/PRODUCTS/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/froil/Desktop/tempora/SegundoParcial/PRODUCTS/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/froil/Desktop/tempora/SegundoParcial/PRODUCTS/bin/Debug/netcoreapp3.1/BusinessLogic.dll
+C:/Users/froil/Desktop/tempora/SegundoParcial/PRODUCTS/bin/Debug/netcoreapp3.1/DataBase.dll
+C:/Users/froil/Desktop/tempora/SegundoParcial/PRODUCTS/bin/Debug/netcoreapp3.1/BusinessLogic.pdb
+C:/Users/froil/Desktop/tempora/SegundoParcial/PRODUCTS/bin/Debug/netcoreapp3.1/DataBase.pdb
+C:/Users/froil/Desktop/tempora/SegundoParcial/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/froil/Desktop/tempora/SegundoParcial/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.csproj.CopyComplete
+C:/Users/HP/Documents/2020-UPB/I/Certificacion I/Grupo2/PRODUCTS/bin/Debug/netcoreapp3.1/Microsoft.OpenApi.dll
+C:/Users/HP/Documents/2020-UPB/I/Certificacion I/Grupo2/PRODUCTS/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/HP/Documents/2020-UPB/I/Certificacion I/Grupo2/PRODUCTS/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/HP/Documents/2020-UPB/I/Certificacion I/Grupo2/PRODUCTS/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/HP/Documents/2020-UPB/I/Certificacion I/Grupo2/PRODUCTS/bin/Debug/netcoreapp3.1/BusinessLogic.dll
+C:/Users/HP/Documents/2020-UPB/I/Certificacion I/Grupo2/PRODUCTS/bin/Debug/netcoreapp3.1/DataBase.dll
+C:/Users/HP/Documents/2020-UPB/I/Certificacion I/Grupo2/PRODUCTS/bin/Debug/netcoreapp3.1/BusinessLogic.pdb
+C:/Users/HP/Documents/2020-UPB/I/Certificacion I/Grupo2/PRODUCTS/bin/Debug/netcoreapp3.1/DataBase.pdb
+C:/Users/HP/Documents/2020-UPB/I/Certificacion I/Grupo2/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/HP/Documents/2020-UPB/I/Certificacion I/Grupo2/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.csproj.CopyComplete
+C:/Users/HP/Documents/2020-UPB/I/Certificacion I/Grupo2/PRODUCTS/bin/Debug/netcoreapp3.1/appsettings.QA.json
+C:/Users/froil/Desktop/tempora/SegundoParcial/PRODUCTS/bin/Debug/netcoreapp3.1/appsettings.QA.json
+C:/Stefano/Cetificacion1/Grupo2/PRODUCTS/bin/Debug/netcoreapp3.1/appsettings.QA.json
+/home/vincent/Documents/Certi1/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/appsettings.Development.json
+/home/vincent/Documents/Certi1/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/appsettings.json
+/home/vincent/Documents/Certi1/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
+/home/vincent/Documents/Certi1/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/appsettings.QA.json
+/home/vincent/Documents/Certi1/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/PRODUCTS
+/home/vincent/Documents/Certi1/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/PRODUCTS.deps.json
+/home/vincent/Documents/Certi1/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/PRODUCTS.runtimeconfig.json
+/home/vincent/Documents/Certi1/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/PRODUCTS.runtimeconfig.dev.json
+/home/vincent/Documents/Certi1/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/PRODUCTS.dll
+/home/vincent/Documents/Certi1/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/PRODUCTS.pdb
+/home/vincent/Documents/Certi1/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/Microsoft.OpenApi.dll
+/home/vincent/Documents/Certi1/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.Swagger.dll
+/home/vincent/Documents/Certi1/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/vincent/Documents/Certi1/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/vincent/Documents/Certi1/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/BusinessLogic.dll
+/home/vincent/Documents/Certi1/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/DataBase.dll
+/home/vincent/Documents/Certi1/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/BusinessLogic.pdb
+/home/vincent/Documents/Certi1/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/DataBase.pdb
+/home/vincent/Documents/Certi1/PRODUCTS/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.csprojAssemblyReference.cache
+/home/vincent/Documents/Certi1/PRODUCTS/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.csproj.CoreCompileInputs.cache
+/home/vincent/Documents/Certi1/PRODUCTS/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.MvcApplicationPartsAssemblyInfo.cs
+/home/vincent/Documents/Certi1/PRODUCTS/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.MvcApplicationPartsAssemblyInfo.cache
+/home/vincent/Documents/Certi1/PRODUCTS/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.AssemblyInfoInputs.cache
+/home/vincent/Documents/Certi1/PRODUCTS/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.AssemblyInfo.cs
+/home/vincent/Documents/Certi1/PRODUCTS/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.RazorTargetAssemblyInfo.cache
+/home/vincent/Documents/Certi1/PRODUCTS/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.csproj.CopyComplete
+/home/vincent/Documents/Certi1/PRODUCTS/PRODUCTS/obj/Debug/netcoreapp3.1/staticwebassets/PRODUCTS.StaticWebAssets.Manifest.cache
+/home/vincent/Documents/Certi1/PRODUCTS/PRODUCTS/obj/Debug/netcoreapp3.1/staticwebassets/PRODUCTS.StaticWebAssets.xml
+/home/vincent/Documents/Certi1/PRODUCTS/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.dll
+/home/vincent/Documents/Certi1/PRODUCTS/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.pdb
+/home/vincent/Documents/Certi1/PRODUCTS/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.genruntimeconfig.cache
+E:/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/appsettings.Development.json
+E:/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/appsettings.json
+E:/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/appsettings.QA.json
+E:/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
+E:/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/PRODUCTS.exe
+E:/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/PRODUCTS.deps.json
+E:/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/PRODUCTS.runtimeconfig.json
+E:/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/PRODUCTS.runtimeconfig.dev.json
+E:/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/PRODUCTS.dll
+E:/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/PRODUCTS.pdb
+E:/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/Microsoft.OpenApi.dll
+E:/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.Swagger.dll
+E:/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerGen.dll
+E:/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerUI.dll
+E:/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/BusinessLogic.dll
+E:/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/Database.dll
+E:/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/BusinessLogic.pdb
+E:/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/Database.pdb
+E:/PRODUCTS/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.csprojAssemblyReference.cache
+E:/PRODUCTS/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.MvcApplicationPartsAssemblyInfo.cs
+E:/PRODUCTS/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.MvcApplicationPartsAssemblyInfo.cache
+E:/PRODUCTS/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.AssemblyInfoInputs.cache
+E:/PRODUCTS/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.AssemblyInfo.cs
+E:/PRODUCTS/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.RazorTargetAssemblyInfo.cache
+E:/PRODUCTS/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.csproj.CopyComplete
+E:/PRODUCTS/PRODUCTS/obj/Debug/netcoreapp3.1/staticwebassets/PRODUCTS.StaticWebAssets.Manifest.cache
+E:/PRODUCTS/PRODUCTS/obj/Debug/netcoreapp3.1/staticwebassets/PRODUCTS.StaticWebAssets.xml
+E:/PRODUCTS/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.dll
+E:/PRODUCTS/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.pdb
+E:/PRODUCTS/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.genruntimeconfig.cache
+E:/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/Serilog.dll
+E:/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/Serilog.Sinks.Console.dll
+E:/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/Serilog.Sinks.File.dll
+E:/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/Serilog.Sinks.RollingFile.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/appsettings.Development.json
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/appsettings.json
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/appsettings.QA.json
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/PRODUCTS
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/PRODUCTS.deps.json
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/PRODUCTS.runtimeconfig.json
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/PRODUCTS.runtimeconfig.dev.json
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/PRODUCTS.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/PRODUCTS.pdb
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Razor.Language.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.Razor.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.Workspaces.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/Microsoft.OpenApi.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/dotnet-aspnet-codegenerator-design.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/NuGet.Frameworks.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/Serilog.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/Serilog.Sinks.Console.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/Serilog.Sinks.File.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/Serilog.Sinks.RollingFile.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.Swagger.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerGen.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerUI.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/System.Composition.AttributedModel.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/System.Composition.Convention.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/System.Composition.Hosting.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/System.Composition.Runtime.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/System.Composition.TypedParts.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.resources.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.resources.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.resources.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.resources.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.resources.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.resources.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.resources.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.resources.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.resources.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.resources.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/BusinessLogic.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/DataBase.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/BusinessLogic.pdb
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/bin/Debug/netcoreapp3.1/DataBase.pdb
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.csprojAssemblyReference.cache
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.csproj.CoreCompileInputs.cache
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.MvcApplicationPartsAssemblyInfo.cs
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.MvcApplicationPartsAssemblyInfo.cache
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.AssemblyInfoInputs.cache
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.AssemblyInfo.cs
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.RazorTargetAssemblyInfo.cache
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.csproj.CopyComplete
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/obj/Debug/netcoreapp3.1/staticwebassets/PRODUCTS.StaticWebAssets.Manifest.cache
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/obj/Debug/netcoreapp3.1/staticwebassets/PRODUCTS.StaticWebAssets.xml
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.dll
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.pdb
+/media/vincent/Samsung_T5/PRODUCTS/PRODUCTS/obj/Debug/netcoreapp3.1/PRODUCTS.genruntimeconfig.cache
