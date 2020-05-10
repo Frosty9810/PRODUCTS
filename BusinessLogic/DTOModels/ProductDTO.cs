@@ -1,4 +1,3 @@
-
 namespace PRODUCTS.DTOModels
 {
     public class ProductDTO

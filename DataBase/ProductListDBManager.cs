@@ -4,15 +4,20 @@ using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.IO;
 using Database.Models;
+using Services;
+using System;
+using Newtonsoft.Json.Linq;
 
 namespace PRODUCTS.DataBase
 {
     public class ProductListDBManager : IProductListDBManager
     {
         private readonly IConfiguration _configuration;
-        private string _dbPath;
+        //private string _dbPath;
         private List<Product> _products { get; set; }
-        private DBContext _dbContext;
+        //private DBContext _dbContext;
+        private ProductBackingService _productBackingServices;
+        private string _productsBsDTOjson;
 
         public ProductListDBManager(IConfiguration config)
         {
@@ -24,10 +29,20 @@ namespace PRODUCTS.DataBase
         public void InitDBContext()
         {
             // read path from config for DB (JSON)
-            _dbPath = _configuration.GetSection("Database").GetSection("connectionString").Value;
+            //_dbPath = _configuration.GetSection("Database").GetSection("connectionString").Value;
             // "Connect to JSON File" => DeserializeObject
-            _dbContext = JsonConvert.DeserializeObject<DBContext>(File.ReadAllText(_dbPath));
-            _products = _dbContext.Products;
+            //_dbContext = JsonConvert.DeserializeObject<DBContext>(File.ReadAllText(_dbPath));
+            //_products = _dbContext.Products;
+            _productBackingServices = new ProductBackingService(_configuration);
+            _productsBsDTOjson = _productBackingServices.GetAllProductsjson();
+            /*_productsBsDTO = _productBackingServices.GetAllProducts();
+            foreach (ProductBsDTO productBsDTO in _productsBsDTO)
+            {
+                //Console.WriteLine(productBsDTO.Name + " " + productBsDTO.Code);
+                _products.Add(new Product(productBsDTO.Name, productBsDTO.Type, productBsDTO.Code, productBsDTO.Stock));
+                //Console.WriteLine(productBsDTO.Name + " " + productBsDTO.Code);
+            }*/
+            _products = JsonConvert.DeserializeObject<List<Product>>(_productsBsDTOjson);
         }
 
         public List<Product> GetAll()
@@ -76,7 +91,15 @@ namespace PRODUCTS.DataBase
 
         public void SaveChanges()
         {
-            File.WriteAllText(_dbPath, JsonConvert.SerializeObject(_dbContext));
+            //File.WriteAllText(_dbPath, JsonConvert.SerializeObject(_dbContext));
+            /*_productsBsDTO.Clear();
+            foreach (Product product in _products)
+            {
+                _productsBsDTO.Add(new ProductBsDTO(product.Name, product.Type, product.Code, product.Stock));
+            }
+            _productBackingServices.SaveChanges(_productsBsDTO);*/
+            _productsBsDTOjson = JsonConvert.SerializeObject(_products);
+            _productBackingServices.SaveChanges(_productsBsDTOjson);
         }
     }
 }

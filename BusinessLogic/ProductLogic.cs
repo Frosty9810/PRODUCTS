@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using PRODUCTS.DataBase.Models;
 using PRODUCTS.DTOModels;
@@ -112,12 +111,7 @@ namespace PRODUCTS.BusinessLogic
                 }
             }
 
-            Product productDB = new Product();
-            productDB.Name = upProduct.Name;
-            productDB.Type = upProduct.Type;
-            productDB.Code = code;
-            productDB.Stock = upProduct.Stock;
-
+            Product productDB = new Product(upProduct.Name, upProduct.Type, code, upProduct.Stock);
             _productTableDB.Update(productDB, code);
         }
 

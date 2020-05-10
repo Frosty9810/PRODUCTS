@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 using PRODUCTS.DTOModels;
 using PRODUCTS.DataBase.Models;
 
@@ -24,23 +22,5 @@ namespace PRODUCTS.BusinessLogic
             }
             return productDTOList;
         }
-        
-        /*public static List<GroupStudentDTO> MapGroupStudentDTOList(List<GroupStudent> groupStudentList)
-        {
-            List<GroupStudentDTO> groupStudentDTOList = new List<GroupStudentDTO>();
-
-            foreach (GroupStudent groupStudent in groupStudentList)
-            {
-                groupStudentDTOList.Add
-                (
-                    new GroupStudentDTO()
-                    {
-                        GroupId = groupStudent.GroupId,
-                        Students = MapStudentDTOList(groupStudent.Students)
-                    }
-                );
-            }
-            return groupStudentDTOList;
-        }*/
     }
 }

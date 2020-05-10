@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
-
 using PRODUCTS.BusinessLogic;
 using PRODUCTS.DTOModels;
 

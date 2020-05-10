@@ -153,7 +153,11 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\BackingServices\\BackingServices.csproj": {
+                "projectPath": "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\BackingServices\\BackingServices.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

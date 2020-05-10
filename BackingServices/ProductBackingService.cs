@@ -1,8 +1,10 @@
 //using BackingServices.Exceptions;
 using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Net.Http;
 using System.Threading.Tasks;
 
@@ -11,10 +13,25 @@ namespace Services
     public class ProductBackingService : IProductBackingService
     {
         private readonly IConfiguration _configuration;
+        private List<ProductBsDTO> _products;
+        private string _dbPath = "C:/Users/bramo/OneDrive/Escritorio/Certificacion/productos.json";
+
         public ProductBackingService(IConfiguration configuration)
         {
             _configuration = configuration;
+            //_products = JsonConvert.DeserializeObject<List<ProductBsDTO>>(File.ReadAllText(_dbPath));
         }
+
+        public List<ProductBsDTO> GetAllProducts()
+        {
+            return _products;
+        }
+
+        public string GetAllProductsjson()
+        {
+            return File.ReadAllText(_dbPath);
+        }
+
         public async Task<List<ProductBsDTO>> GetAllProduct()
         {
             // Creating HTTP Client
@@ -38,6 +55,20 @@ namespace Services
                 // something wrong happens!
                 throw new NotImplementedException();
             }
+            //List<ProductBsDTO> productss = JsonConvert.DeserializeObject<List<ProductBsDTO>>(File.ReadAllText(_dbPath));
+            //return productss;
+        }
+
+        public void SaveChanges(List<ProductBsDTO> productsBsDTOs)
+        {
+            _products = productsBsDTOs;
+            File.WriteAllText(_dbPath, JsonConvert.SerializeObject(productsBsDTOs));
+        }
+
+        public void SaveChanges(string productsBsDTOs)
+        {
+            _products = JsonConvert.DeserializeObject<List<ProductBsDTO>>(productsBsDTOs);
+            File.WriteAllText(_dbPath, productsBsDTOs);
         }
     }
 }
