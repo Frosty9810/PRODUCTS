@@ -14,7 +14,7 @@ namespace Services
     {
         private readonly IConfiguration _configuration;
         private List<ProductBsDTO> _products;
-        private string _dbPath = "C:/Users/bramo/OneDrive/Escritorio/Certificacion/productos.json";
+        private string _dbPath = "../products.json";
 
         public ProductBackingService(IConfiguration configuration)
         {
