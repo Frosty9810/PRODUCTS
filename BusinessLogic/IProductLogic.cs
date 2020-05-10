@@ -8,6 +8,6 @@ namespace PRODUCTS.BusinessLogic
         public List<ProductDTO> GetAll();
         public void CreateProduct(ProductDTO product);
         public bool deleteProduct(string code);
-        public void updateProduct(ProductDTO upProduct, string code);
+        public ProductDTO updateProduct(ProductDTO upProduct, string code);
     }
 }

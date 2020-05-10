@@ -51,61 +51,48 @@ namespace PRODUCTS.DataBase
             return _products;
         }
 
-        public void AddNew(Product newProduct)
+        public Product AddNew(Product newProduct)
         {
             _products.Add(newProduct);
             SaveChanges();
+            return newProduct;
         }
-        public void Update(Product productToUpdate, string code)
+        public Product Update(Product productToUpdate, string code)
         {
-            try
-            {
-                var productToUp = _products.First(d => d.Code.Equals(code));
 
+            //var productToUp = _products.First(d => d.Code.Equals(code));
 
-                productToUpdate.Code = code;
-                if (string.IsNullOrEmpty(productToUpdate.Name))
+                 Product productToUp = _products.Find(product => product.Code == code);
+                if (productToUp != null) 
                 {
-                    productToUpdate.Name = productToUp.Name;
-                }
-                else
-                {
-                    productToUp.Name = productToUpdate.Name;
-                }
-                if (productToUpdate.Stock != 0)
-                {
-                    productToUpdate.Stock = productToUp.Stock;
-                }
-                else
-                {
-                    productToUp.Stock = productToUpdate.Stock;
-                }
-                if (string.IsNullOrEmpty(productToUpdate.Type))
-                {
-                    productToUpdate.Type = productToUp.Type;
-                }
-                else
-                {
-                    productToUp.Type = productToUpdate.Type;
-                }
+                    productToUpdate.Code = code;
+                    if (string.IsNullOrEmpty(productToUpdate.Name))
+                    {
+                        productToUpdate.Name = productToUp.Name;
+                    }
+                    else
+                    {
+                        productToUp.Name = productToUpdate.Name;
+                    }
+                    if (productToUpdate.Stock != 0)
+                    {
+                        productToUpdate.Stock = productToUp.Stock;
+                    }
+                    else
+                    {
+                        productToUp.Stock = productToUpdate.Stock;
+                    }
+                    if (string.IsNullOrEmpty(productToUpdate.Type))
+                    {
+                        productToUpdate.Type = productToUp.Type;
+                    }
+                    else
+                    {
+                        productToUp.Type = productToUpdate.Type;
+                    }
 
             }
-            catch (NullReferenceException e)
-            {
-                //throw new NullReferenceException("ARGUMENTO NO VALIDO");
-                Console.WriteLine("{0} First exception caught.", e);
-
-            }
-            catch (InvalidOperationException a)
-            {
-                //throw new InvalidOperationException("ARGUMENTO NO VALIDO");
-                Console.WriteLine("{0} First exception caught.", a);
-
-
-            }
-
-
-            /*
+             /*
             foreach(Product product in _products)
             {
                 if (product.Code.Equals(code))
@@ -119,24 +106,20 @@ namespace PRODUCTS.DataBase
             }
             */
             SaveChanges();
+            return productToUp;
         }
-        public void Delete(string code)
+        public bool Delete(string code)
         {
-            int count = 0;
-
-            foreach(Product product in GetAll())
-            {
-                if (product.Code.Equals(code))
-                {   
-                    GetAll().RemoveAt(count);
-                    break;
-                }
-                else
-                {
-                    count += 1;
-                }
-            }
+           
+            Product productfound = _products.Find(product => product.Code == code);
+          
+            bool removed = _products.Remove(productfound);
+               
+            
+            
             SaveChanges();
+            return removed;
+
         }
 
         public void SaveChanges()

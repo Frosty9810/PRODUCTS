@@ -20,25 +20,7 @@ namespace PRODUCTS.BusinessLogic
         {
 
             return DTOUtil.MapProductDTOList(_productTableDB.GetAll());
-            /*
-            List<Product> allProducts = _productTableDB.GetAll();
-            List<ProductDTO> listToAdd = new List<ProductDTO>();
-
-            foreach (Product product in allProducts)
-            {
-                listToAdd.Add(
-                    new ProductDTO() 
-                    { 
-                        Name = product.Name, 
-                        Type = product.Type, 
-                        Code = product.Code, 
-                        Stock = product.Stock
-                    }
-                );
-            }
-
-            return listToAdd;
-            */
+           
         }
         public void CreateProduct(ProductDTO newProduct)
         {
@@ -77,19 +59,8 @@ namespace PRODUCTS.BusinessLogic
             }
 
         }
-        public void readProduct(List<Product> listProducts , Product productR)
-        {
-            Product showProduct = null;
-            foreach(Product product in listProducts)
-            {
-                if (product.Equals(productR))
-                {
-                    showProduct = product;
-                }
-            }
-        }
-
-        public void updateProduct(ProductDTO upProduct, string code)
+       
+        public ProductDTO updateProduct(ProductDTO upProduct, string code)
         {
             if (string.IsNullOrEmpty(code))
             {
@@ -125,36 +96,16 @@ namespace PRODUCTS.BusinessLogic
                 }
             }
 
-            /*
-            Product product = new Product();
-            product.Name = upProduct.Name;
-            product.Code = code;
-            product.Stock = upProduct.Stock;
-            product.Type = upProduct.Type;
-            */
+           
             Product productDB = new Product(upProduct.Name, upProduct.Type, code, upProduct.Stock);
-            _productTableDB.Update(productDB, code);
+             //  _productTableDB.Update(productDB, code);
+            return DTOUtil.MapProductDTO(_productTableDB.Update(productDB, code));
         }
 
         public bool deleteProduct(string code)
         {
-            int count = 0;
-
-            foreach (ProductDTO product in GetAll())
-            {
-                if (product.Code.Equals(code))
-                {
-                    GetAll().RemoveAt(count);
-                    _productTableDB.Delete(code);
-                    return true;
-
-                }
-                else
-                {
-                    count += 1;
-                }
-            }
-            return false;
+            
+            return _productTableDB.Delete(code);
         }
 
         private ProductDTO generateCode(List<Product> listToAdd, ProductDTO product){

@@ -7,8 +7,8 @@ namespace PRODUCTS.DataBase
     public interface IProductListDBManager : IDBManager
     {
         public List<Product> GetAll();
-        public void AddNew(Product newProduct);
-        public void Update(Product studentToUpdate, string code);
-        public void Delete(string code);
+        public Product AddNew(Product newProduct);
+        public Product Update(Product studentToUpdate, string code);
+        public bool Delete(string code);
     }
 }
