@@ -1,4 +1,3 @@
-
 using System.Collections.Generic;
 using PRODUCTS.DTOModels;
 using PRODUCTS.DataBase;
@@ -8,43 +7,27 @@ namespace PRODUCTS.BusinessLogic
 {
     public class ProductsListLogic : IProductsListLogic
     {
-        private readonly IProductsDB  _productTableDB;
-        
+        private readonly IProductListDBManager _productListDBManager;
 
-        public ProductsListLogic(IProductsDB productTableDB) 
+        public ProductsListLogic(IProductListDBManager productListDBManager) 
         {
-            _productTableDB = productTableDB;
+            _productListDBManager = productListDBManager;
         }
 
         public List<ProductDTO> GetListProducts() 
         {
-            
-            List<Product> allProducts = _productTableDB.GetAll();
-            
-            List<ProductDTO> listToAdd = GetEmptyList();
-
-           
-            foreach (Product product in allProducts)
-            {
-                addToList(listToAdd, product);
-            }
-            
-            return listToAdd;
+            return DTOUtil.MapProductDTOList(_productListDBManager.GetAll());
         }
 
         private List<ProductDTO> GetEmptyList() 
         {
             List<ProductDTO> emptyList = new List<ProductDTO>();
-
             return emptyList;
         }
 
         private void addToList(List<ProductDTO> listToAdd, Product product) 
         {
            listToAdd.Add(new ProductDTO() { Name = product.Name , Type = product.Type, Code = product.Code , Stock = product.Stock});
-            
         }
-
-        
     }
 }

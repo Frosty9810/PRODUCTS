@@ -1,12 +1,11 @@
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
-
 using PRODUCTS.BusinessLogic;
 using PRODUCTS.DTOModels;
 
 namespace PRODUCTS.Controllers
 {
-   // [Route("Products")]
+    //[Route("Products")]
     [ApiController]
     public class ProductController : ControllerBase
     {
@@ -47,6 +46,5 @@ namespace PRODUCTS.Controllers
         {
             _productLogic.deleteProduct(id);
         }
-        
     }
 }
