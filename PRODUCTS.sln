@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PRODUCTS", "PRODUCTS\PRODUCTS.csproj", "{CE0F684B-460A-448C-BCB8-E608A23989BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PRODUCTS", "PRODUCTS\PRODUCTS.csproj", "{CE0F684B-460A-448C-BCB8-E608A23989BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{3EE50656-12BA-499E-B331-570996471C5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{3EE50656-12BA-499E-B331-570996471C5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "DataBase\Database.csproj", "{9DEA6B54-7D26-4656-A687-EE92E2E83EF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataBase", "DataBase\DataBase.csproj", "{9DEA6B54-7D26-4656-A687-EE92E2E83EF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackingServices", "BackingServices\BackingServices.csproj", "{A05618D3-74AD-4FE9-A671-6F32D304198D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackingServices", "BackingServices\BackingServices.csproj", "{A05618D3-74AD-4FE9-A671-6F32D304198D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,9 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{CE0F684B-460A-448C-BCB8-E608A23989BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -72,5 +69,11 @@ Global
 		{A05618D3-74AD-4FE9-A671-6F32D304198D}.Release|x64.Build.0 = Release|Any CPU
 		{A05618D3-74AD-4FE9-A671-6F32D304198D}.Release|x86.ActiveCfg = Release|Any CPU
 		{A05618D3-74AD-4FE9-A671-6F32D304198D}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C45C56DC-B826-41B4-8ED5-A6DE8A3FAB5D}
 	EndGlobalSection
 EndGlobal

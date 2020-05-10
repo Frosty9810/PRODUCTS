@@ -128,12 +128,12 @@
         }
       }
     },
-    "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\DataBase\\Database.csproj": {
+    "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\DataBase\\DataBase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\DataBase\\Database.csproj",
-        "projectName": "Database",
-        "projectPath": "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\DataBase\\Database.csproj",
+        "projectUniqueName": "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\DataBase\\DataBase.csproj",
+        "projectName": "DataBase",
+        "projectPath": "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\DataBase\\DataBase.csproj",
         "packagesPath": "C:\\Users\\bramo\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\DataBase\\obj\\",
         "projectStyle": "PackageReference",

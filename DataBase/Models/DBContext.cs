@@ -1,7 +1,7 @@
 ﻿using PRODUCTS.DataBase.Models;
 using System.Collections.Generic;
 
-namespace Database.Models
+namespace DataBase.Models
 {
     public class DBContext
     {
