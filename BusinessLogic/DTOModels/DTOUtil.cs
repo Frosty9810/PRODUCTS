@@ -16,7 +16,10 @@ namespace PRODUCTS.BusinessLogic
                 (
                     new ProductDTO()
                     {
-                        Name = product.Name
+                        Name = product.Name,
+                        Code = product.Code,
+                        Stock = product.Stock,
+                        Type = product.Type
                     }
                 );
             }

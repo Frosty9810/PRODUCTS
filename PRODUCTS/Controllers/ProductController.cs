@@ -42,9 +42,9 @@ namespace PRODUCTS.Controllers
         // DELETE api/product/5
         [HttpDelete]
         [Route("product/{id}")]
-        public void Delete(string id)
+        public bool Delete(string id)
         {
-            _productLogic.deleteProduct(id);
+            return _productLogic.deleteProduct(id);
         }
     }
 }

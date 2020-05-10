@@ -7,7 +7,7 @@ namespace PRODUCTS.BusinessLogic
     {
         public List<ProductDTO> GetAll();
         public void CreateProduct(ProductDTO product);
-        public void deleteProduct(string code);
+        public bool deleteProduct(string code);
         public void updateProduct(ProductDTO upProduct, string code);
     }
 }

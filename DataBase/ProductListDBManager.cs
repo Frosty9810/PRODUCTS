@@ -7,6 +7,7 @@ using DataBase.Models;
 using Services;
 using System;
 using Newtonsoft.Json.Linq;
+using System.Linq;
 
 namespace PRODUCTS.DataBase
 {
@@ -57,7 +58,55 @@ namespace PRODUCTS.DataBase
         }
         public void Update(Product productToUpdate, string code)
         {
-             foreach(Product product in _products)
+            try
+            {
+                var productToUp = _products.First(d => d.Code.Equals(code));
+
+
+                productToUpdate.Code = code;
+                if (string.IsNullOrEmpty(productToUpdate.Name))
+                {
+                    productToUpdate.Name = productToUp.Name;
+                }
+                else
+                {
+                    productToUp.Name = productToUpdate.Name;
+                }
+                if (productToUpdate.Stock != 0)
+                {
+                    productToUpdate.Stock = productToUp.Stock;
+                }
+                else
+                {
+                    productToUp.Stock = productToUpdate.Stock;
+                }
+                if (string.IsNullOrEmpty(productToUpdate.Type))
+                {
+                    productToUpdate.Type = productToUp.Type;
+                }
+                else
+                {
+                    productToUp.Type = productToUpdate.Type;
+                }
+
+            }
+            catch (NullReferenceException e)
+            {
+                //throw new NullReferenceException("ARGUMENTO NO VALIDO");
+                Console.WriteLine("{0} First exception caught.", e);
+
+            }
+            catch (InvalidOperationException a)
+            {
+                //throw new InvalidOperationException("ARGUMENTO NO VALIDO");
+                Console.WriteLine("{0} First exception caught.", a);
+
+
+            }
+
+
+            /*
+            foreach(Product product in _products)
             {
                 if (product.Code.Equals(code))
                 {   
@@ -68,6 +117,7 @@ namespace PRODUCTS.DataBase
                     break;
                 }
             }
+            */
             SaveChanges();
         }
         public void Delete(string code)

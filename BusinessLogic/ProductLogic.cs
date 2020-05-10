@@ -3,6 +3,7 @@ using System.Linq;
 using PRODUCTS.DataBase.Models;
 using PRODUCTS.DTOModels;
 using PRODUCTS.DataBase;
+using System;
 
 namespace PRODUCTS.BusinessLogic
 {
@@ -17,7 +18,9 @@ namespace PRODUCTS.BusinessLogic
 
         public List<ProductDTO> GetAll() 
         {
-            
+
+            return DTOUtil.MapProductDTOList(_productTableDB.GetAll());
+            /*
             List<Product> allProducts = _productTableDB.GetAll();
             List<ProductDTO> listToAdd = new List<ProductDTO>();
 
@@ -35,6 +38,7 @@ namespace PRODUCTS.BusinessLogic
             }
 
             return listToAdd;
+            */
         }
         public void CreateProduct(ProductDTO newProduct)
         {
@@ -87,10 +91,20 @@ namespace PRODUCTS.BusinessLogic
 
         public void updateProduct(ProductDTO upProduct, string code)
         {
-            foreach(ProductDTO product in GetAll())
+            if (string.IsNullOrEmpty(code))
+            {
+                throw new ArgumentNullException(nameof(code), "No null");
+            }
+            if (upProduct.Code == null) 
+            {
+                throw new Exception("Invalid data, code is misssing"); // StudentLogicInvalidDataException()
+
+            }
+
+            foreach (ProductDTO product in GetAll())
             {
                 if (product.Code.Equals(code))
-                {   
+                {
                     if (product.Name != null && product.Name != "")
                     {
                         product.Name = upProduct.Name;
@@ -111,29 +125,39 @@ namespace PRODUCTS.BusinessLogic
                 }
             }
 
+            /*
+            Product product = new Product();
+            product.Name = upProduct.Name;
+            product.Code = code;
+            product.Stock = upProduct.Stock;
+            product.Type = upProduct.Type;
+            */
             Product productDB = new Product(upProduct.Name, upProduct.Type, code, upProduct.Stock);
             _productTableDB.Update(productDB, code);
         }
 
-        public void deleteProduct(string code)
+        public bool deleteProduct(string code)
         {
             int count = 0;
 
-            foreach(ProductDTO product in GetAll())
+            foreach (ProductDTO product in GetAll())
             {
                 if (product.Code.Equals(code))
-                {   
+                {
                     GetAll().RemoveAt(count);
+                    _productTableDB.Delete(code);
+                    return true;
+
                 }
                 else
                 {
                     count += 1;
                 }
             }
-            _productTableDB.Delete(code);
+            return false;
         }
 
-         private ProductDTO generateCode(List<Product> listToAdd, ProductDTO product){
+        private ProductDTO generateCode(List<Product> listToAdd, ProductDTO product){
             IEnumerable<Product> soccerList = listToAdd.Where(product => product.Type == "SOCCER");
             IEnumerable<Product> basketList = listToAdd.Where(product => product.Type == "BASKET");
             if(product.Type == "SOCCER"){

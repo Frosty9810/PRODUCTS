@@ -1779,7 +1779,7 @@
       },
       "BusinessLogic/1.0.0": {
         "dependencies": {
-          "Database": "1.0.0"
+          "DataBase": "1.0.0"
         },
         "runtime": {
           "BusinessLogic.dll": {}
@@ -1788,7 +1788,7 @@
           "BusinessLogic.dll": {}
         }
       },
-      "Database/1.0.0": {
+      "DataBase/1.0.0": {
         "dependencies": {
           "BackingServices": "1.0.0",
           "Microsoft.Extensions.Configuration": "3.1.3",
@@ -1799,10 +1799,10 @@
           "Serilog.Sinks.RollingFile": "3.3.0"
         },
         "runtime": {
-          "Database.dll": {}
+          "DataBase.dll": {}
         },
         "compile": {
-          "Database.dll": {}
+          "DataBase.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -4315,7 +4315,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Database/1.0.0": {
+    "DataBase/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
