@@ -62,10 +62,7 @@ namespace PRODUCTS.BusinessLogic
        
         public ProductDTO updateProduct(ProductDTO upProduct, string code)
         {
-            if (string.IsNullOrEmpty(code))
-            {
-                throw new ArgumentNullException(nameof(code), "No null");
-            }
+            
             if (upProduct.Code == null) 
             {
                 throw new Exception("Invalid data, code is misssing"); // StudentLogicInvalidDataException()
