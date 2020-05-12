@@ -6,7 +6,7 @@ using Microsoft.Extensions.Hosting;
 using PRODUCTS.DataBase;
 using PRODUCTS.BusinessLogic;
 using Services;
-
+using PRODUCTS.Middleware;
 
 namespace PRODUCTS
 {
@@ -73,28 +73,34 @@ namespace PRODUCTS
                     }
                 );
             });
+           
 
         }
 
         
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            app.UseExceptionHandlerMiddleware();
+            //app.UseHsts();
             //app.UseHttpsRedirection();
 
             app.UseRouting();
 
-            app.UseAuthorization();
+            //app.UseAuthorization();
+            app.UseCors("AllowAll");
+
+            app.UseAuthorizationMiddleware();
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
             });
-
+            //Inyeccion al final, no afecta a la logica, por tal razon va al final
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {

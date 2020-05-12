@@ -16,11 +16,24 @@ namespace PRODUCTS.BusinessLogic
                 (
                     new ProductDTO()
                     {
-                        Name = product.Name
+                        Name = product.Name,
+                        Code = product.Code,
+                        Stock = product.Stock,
+                        Type = product.Type
                     }
                 );
             }
             return productDTOList;
         }
+        public static ProductDTO MapProductDTO(Product product) 
+        {
+            ProductDTO productdto = new ProductDTO();
+            productdto.Code = product.Code;
+            productdto.Name = product.Name;
+            productdto.Stock = product.Stock;
+            productdto.Type = product.Type;
+            return productdto; 
+        }
+            
     }
 }

@@ -1,4 +1,5 @@
 //using BackingServices.Exceptions;
+using BackingServices.Exceptions;
 using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
@@ -14,6 +15,8 @@ namespace Services
     {
         private readonly IConfiguration _configuration;
         private List<ProductBsDTO> _products;
+        //TEST NOT FOUND EXCEPTION
+        //private string _dbPath = "";
         private string _dbPath = "../products.json";
 
         public ProductBackingService(IConfiguration configuration)
@@ -34,29 +37,39 @@ namespace Services
 
         public async Task<List<ProductBsDTO>> GetAllProduct()
         {
-            // Creating HTTP Client
-            HttpClient productMS = new HttpClient();
             string msPath = _configuration.GetSection("Microservices").GetSection("Products").Value;
-            // Executing an ASYNC HTTP Method could be: Get, Post, Put, Delete
-            // In this case is a GET
-            // HttpContent content = new 
-            HttpResponseMessage response = await productMS.GetAsync($"{msPath}/products");
-            int statusCode = (int)response.StatusCode;
-            if (statusCode == 200) // OK
+            try
             {
-                // Read ASYNC response from HTTPResponse 
-                String jsonResponse = await response.Content.ReadAsStringAsync();
-                // Deserialize response
-                List<ProductBsDTO> products = JsonConvert.DeserializeObject<List<ProductBsDTO>>(jsonResponse);
-                return products;
+                // Creating HTTP Client
+                HttpClient productMS = new HttpClient();
+                // Executing an ASYNC HTTP Method could be: Get, Post, Put, Delete
+                // In this case is a GET
+                // HttpContent content = new 
+                HttpResponseMessage response = await productMS.GetAsync($"{msPath}/products");
+                int statusCode = (int)response.StatusCode;
+                if (statusCode == 200) // OK
+                {
+                    // Read ASYNC response from HTTPResponse 
+                    String jsonResponse = await response.Content.ReadAsStringAsync();
+                    // Deserialize response
+                    List<ProductBsDTO> products = JsonConvert.DeserializeObject<List<ProductBsDTO>>(jsonResponse);
+                    return products;
+                }
+                else
+                {
+                    // something wrong happens!
+                    throw new NotImplementedException();
+                }
+                //List<ProductBsDTO> productss = JsonConvert.DeserializeObject<List<ProductBsDTO>>(File.ReadAllText(_dbPath));
+                //return productss;
             }
-            else
+            catch (Exception ex) 
             {
-                // something wrong happens!
-                throw new NotImplementedException();
+                throw new BackingServiceException("Connection with Products is not working! " + msPath);
+
             }
-            //List<ProductBsDTO> productss = JsonConvert.DeserializeObject<List<ProductBsDTO>>(File.ReadAllText(_dbPath));
-            //return productss;
+
+
         }
 
         public void SaveChanges(List<ProductBsDTO> productsBsDTOs)

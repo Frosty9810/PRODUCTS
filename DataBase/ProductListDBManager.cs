@@ -7,6 +7,7 @@ using DataBase.Models;
 using Services;
 using System;
 using Newtonsoft.Json.Linq;
+using System.Linq;
 
 namespace PRODUCTS.DataBase
 {
@@ -50,43 +51,72 @@ namespace PRODUCTS.DataBase
             return _products;
         }
 
-        public void AddNew(Product newProduct)
+        public Product AddNew(Product newProduct)
         {
             _products.Add(newProduct);
             SaveChanges();
+            return newProduct;
         }
-        public void Update(Product productToUpdate, string code)
+        public Product Update(Product productToUpdate, string code)
         {
-             foreach(Product product in _products)
+            Product productToUp = _products.Find(product => product.Code == code);
+            if (productToUp != null)
             {
-                if (product.Code.Equals(code))
-                {   
-                    product.Name = productToUpdate.Name;
-                    product.Type = productToUpdate.Type;
-                    product.Code = code;
-                    product.Stock = productToUpdate.Stock;
-                    break;
-                }
-            }
-            SaveChanges();
-        }
-        public void Delete(string code)
-        {
-            int count = 0;
-
-            foreach(Product product in GetAll())
-            {
-                if (product.Code.Equals(code))
-                {   
-                    GetAll().RemoveAt(count);
-                    break;
+                productToUpdate.Code = code;
+                if (string.IsNullOrEmpty(productToUpdate.Name))
+                {
+                    productToUpdate.Name = productToUp.Name;
                 }
                 else
                 {
-                    count += 1;
+                    productToUp.Name = productToUpdate.Name;
                 }
+                if (productToUpdate.Stock != 0)
+                {
+                    productToUpdate.Stock = productToUp.Stock;
+                }
+                else
+                {
+                    productToUp.Stock = productToUpdate.Stock;
+                }
+                if (string.IsNullOrEmpty(productToUpdate.Type))
+                {
+                    productToUpdate.Type = productToUp.Type;
+                }
+                else
+                {
+                    productToUp.Type = productToUpdate.Type;
+                }
+
             }
+            /*
+           foreach(Product product in _products)
+           {
+               if (product.Code.Equals(code))
+               {   
+                   product.Name = productToUpdate.Name;
+                   product.Type = productToUpdate.Type;
+                   product.Code = code;
+                   product.Stock = productToUpdate.Stock;
+                   break;
+               }
+           }
+           */
             SaveChanges();
+            return productToUp;
+        }
+        public bool Delete(string code)
+        {
+
+            Product productfound = _products.Find(product => product.Code == code);
+
+            bool removed = _products.Remove(productfound);
+
+
+
+            SaveChanges();
+            return removed;
+
         }
 
         public void SaveChanges()
