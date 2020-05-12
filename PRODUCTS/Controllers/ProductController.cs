@@ -30,11 +30,11 @@ namespace PRODUCTS.Controllers
         //[ProducesResponseType(StatusCodes.Status201Created)]
 
         [Route("product")]
-        public void Post([FromBody] ProductDTO newproductDTO)
+        public ProductDTO Post([FromBody] ProductDTO newproductDTO)
         {
             
            // Console.WriteLine("End point");
-            _productLogic.CreateProduct(newproductDTO);
+            return _productLogic.CreateProduct(newproductDTO);
         }
 
         // PUT api/product/5

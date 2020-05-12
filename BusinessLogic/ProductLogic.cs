@@ -22,7 +22,7 @@ namespace PRODUCTS.BusinessLogic
             return DTOUtil.MapProductDTOList(_productTableDB.GetAll());
            
         }
-        public string generateId(string type)
+        private string generateId(string type)
         {
             List<Product> allProducts = _productTableDB.GetAll();
             int maxNum = 0;
@@ -42,7 +42,7 @@ namespace PRODUCTS.BusinessLogic
                     throw new Exception("Invalid type");
             }
         }
-        public void CreateProduct(ProductDTO newProduct)
+        public ProductDTO CreateProduct(ProductDTO newProduct)
         {
             
             Product productDB = new Product();
@@ -50,7 +50,10 @@ namespace PRODUCTS.BusinessLogic
             productDB.Name = newProduct.Name;
             productDB.Type = newProduct.Type;
             productDB.Stock = newProduct.Stock;
-            _productTableDB.AddNew(productDB);
+            Product product = _productTableDB.AddNew(productDB);
+           
+            return DTOUtil.MapProductDTO(product);
+
 
 
             /*

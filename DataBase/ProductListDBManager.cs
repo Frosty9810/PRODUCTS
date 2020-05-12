@@ -59,9 +59,6 @@ namespace PRODUCTS.DataBase
         }
         public Product Update(Product productToUpdate, string code)
         {
-
-            //var productToUp = _products.First(d => d.Code.Equals(code));
-
             Product productToUp = _products.Find(product => product.Code == code);
             if (productToUp != null)
             {

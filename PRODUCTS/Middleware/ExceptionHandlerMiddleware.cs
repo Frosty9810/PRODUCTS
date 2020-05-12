@@ -46,16 +46,18 @@ namespace PRODUCTS.Middleware
                 httpStatusCode = (int)HttpStatusCode.ServiceUnavailable;
                 messageToShow = ex.Message;
             }
-            else
+            else if (ex is InvalidOperationException)
             {
-                /*
-                 *  
-                      httpStatusCode = (int)HttpStatusCode.NotFound;
-                      messageToShow = "Not found";
-                 */
+
+
+                httpStatusCode = (int)HttpStatusCode.BadRequest;
+                messageToShow = ex.Message;
+
+            }
+            else 
+            {
                 httpStatusCode = (int)HttpStatusCode.InternalServerError;
                 messageToShow = "The server ocurrs an unexpected error.";
-
             }
             var errorModel = new
             {
@@ -64,10 +66,8 @@ namespace PRODUCTS.Middleware
             };
             httpContext.Response.StatusCode = httpStatusCode;
             return httpContext.Response.WriteAsync(JsonConvert.SerializeObject(errorModel));
-           
-        }
     }
-   
+   }
     //Agarra y tener el middleware como parte de config
     // Extension method used to add the middleware to the HTTP request pipeline.
     public static class ExceptionHandlerMiddlewareExtensions
