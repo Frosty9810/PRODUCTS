@@ -7,6 +7,9 @@ using PRODUCTS.DataBase;
 using PRODUCTS.BusinessLogic;
 using Services;
 using PRODUCTS.Middleware;
+using Serilog;
+using Serilog.Events;
+
 
 namespace PRODUCTS
 {
@@ -24,6 +27,18 @@ namespace PRODUCTS
                 .AddEnvironmentVariables();
 
             Configuration = builder.Build();
+            string logpath = Configuration.GetSection("Logging").GetSection("FileLocation").Value;
+
+            Log.Logger = new LoggerConfiguration()
+                .MinimumLevel
+                .Information()
+                .WriteTo.Console()
+                .WriteTo.RollingFile(logpath, LogEventLevel.Information)
+                .CreateLogger();
+
+            Log.Information("This app is using the config file: " + $"appsettings.{env.EnvironmentName}.json");
+
+
         }
 
         public IConfiguration Configuration { get; }

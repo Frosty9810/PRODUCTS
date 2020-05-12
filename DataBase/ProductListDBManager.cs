@@ -8,6 +8,9 @@ using Services;
 using System;
 using Newtonsoft.Json.Linq;
 using System.Linq;
+using Microsoft.Extensions.Logging;
+using Serilog;
+
 
 namespace PRODUCTS.DataBase
 {
@@ -20,10 +23,13 @@ namespace PRODUCTS.DataBase
         private ProductBackingService _productBackingServices;
         private string _productsBsDTOjson;
 
-        public ProductListDBManager(IConfiguration config)
+        public readonly ILogger<ProductListDBManager> _logger;
+
+        public ProductListDBManager(IConfiguration config, ILogger<ProductListDBManager> logger)
         {
             // assign config
             _configuration = config;
+            _logger = logger;
             InitDBContext(); // new List<T>()   
         }
 
@@ -34,6 +40,7 @@ namespace PRODUCTS.DataBase
             // "Connect to JSON File" => DeserializeObject
             //_dbContext = JsonConvert.DeserializeObject<DBContext>(File.ReadAllText(_dbPath));
             //_products = _dbContext.Products;
+            //  _logger.LogInformation("This app is using db path" + _dbpath);  //lOGGER INFO
             _productBackingServices = new ProductBackingService(_configuration);
             _productsBsDTOjson = _productBackingServices.GetAllProductsjson();
             /*_productsBsDTO = _productBackingServices.GetAllProducts();
