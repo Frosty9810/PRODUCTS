@@ -62,61 +62,61 @@ namespace PRODUCTS.DataBase
 
             //var productToUp = _products.First(d => d.Code.Equals(code));
 
-                 Product productToUp = _products.Find(product => product.Code == code);
-                if (productToUp != null) 
+            Product productToUp = _products.Find(product => product.Code == code);
+            if (productToUp != null)
+            {
+                productToUpdate.Code = code;
+                if (string.IsNullOrEmpty(productToUpdate.Name))
                 {
-                    productToUpdate.Code = code;
-                    if (string.IsNullOrEmpty(productToUpdate.Name))
-                    {
-                        productToUpdate.Name = productToUp.Name;
-                    }
-                    else
-                    {
-                        productToUp.Name = productToUpdate.Name;
-                    }
-                    if (productToUpdate.Stock != 0)
-                    {
-                        productToUpdate.Stock = productToUp.Stock;
-                    }
-                    else
-                    {
-                        productToUp.Stock = productToUpdate.Stock;
-                    }
-                    if (string.IsNullOrEmpty(productToUpdate.Type))
-                    {
-                        productToUpdate.Type = productToUp.Type;
-                    }
-                    else
-                    {
-                        productToUp.Type = productToUpdate.Type;
-                    }
+                    productToUpdate.Name = productToUp.Name;
+                }
+                else
+                {
+                    productToUp.Name = productToUpdate.Name;
+                }
+                if (productToUpdate.Stock != 0)
+                {
+                    productToUpdate.Stock = productToUp.Stock;
+                }
+                else
+                {
+                    productToUp.Stock = productToUpdate.Stock;
+                }
+                if (string.IsNullOrEmpty(productToUpdate.Type))
+                {
+                    productToUpdate.Type = productToUp.Type;
+                }
+                else
+                {
+                    productToUp.Type = productToUpdate.Type;
+                }
 
             }
-             /*
-            foreach(Product product in _products)
-            {
-                if (product.Code.Equals(code))
-                {   
-                    product.Name = productToUpdate.Name;
-                    product.Type = productToUpdate.Type;
-                    product.Code = code;
-                    product.Stock = productToUpdate.Stock;
-                    break;
-                }
-            }
-            */
+            /*
+           foreach(Product product in _products)
+           {
+               if (product.Code.Equals(code))
+               {   
+                   product.Name = productToUpdate.Name;
+                   product.Type = productToUpdate.Type;
+                   product.Code = code;
+                   product.Stock = productToUpdate.Stock;
+                   break;
+               }
+           }
+           */
             SaveChanges();
             return productToUp;
         }
         public bool Delete(string code)
         {
-           
+
             Product productfound = _products.Find(product => product.Code == code);
-          
+
             bool removed = _products.Remove(productfound);
-               
-            
-            
+
+
+
             SaveChanges();
             return removed;
 

@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\PR\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj": {}
+    "C:\\Users\\JD\\Desktop\\CertiF\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj": {}
   },
   "projects": {
-    "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\PR\\PRODUCTS\\BackingServices\\BackingServices.csproj": {
+    "C:\\Users\\JD\\Desktop\\CertiF\\PRODUCTS\\BackingServices\\BackingServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\PR\\PRODUCTS\\BackingServices\\BackingServices.csproj",
+        "projectUniqueName": "C:\\Users\\JD\\Desktop\\CertiF\\PRODUCTS\\BackingServices\\BackingServices.csproj",
         "projectName": "BackingServices",
-        "projectPath": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\PR\\PRODUCTS\\BackingServices\\BackingServices.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\PR\\PRODUCTS\\BackingServices\\obj\\",
+        "projectPath": "C:\\Users\\JD\\Desktop\\CertiF\\PRODUCTS\\BackingServices\\BackingServices.csproj",
+        "packagesPath": "C:\\Users\\JD\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JD\\Desktop\\CertiF\\PRODUCTS\\BackingServices\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\JD\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -66,17 +69,20 @@
         }
       }
     },
-    "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\PR\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj": {
+    "C:\\Users\\JD\\Desktop\\CertiF\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\PR\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj",
+        "projectUniqueName": "C:\\Users\\JD\\Desktop\\CertiF\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj",
         "projectName": "BusinessLogic",
-        "projectPath": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\PR\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\PR\\PRODUCTS\\BusinessLogic\\obj\\",
+        "projectPath": "C:\\Users\\JD\\Desktop\\CertiF\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\JD\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JD\\Desktop\\CertiF\\PRODUCTS\\BusinessLogic\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\JD\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -89,8 +95,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\PR\\PRODUCTS\\DataBase\\DataBase.csproj": {
-                "projectPath": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\PR\\PRODUCTS\\DataBase\\DataBase.csproj"
+              "C:\\Users\\JD\\Desktop\\CertiF\\PRODUCTS\\DataBase\\DataBase.csproj": {
+                "projectPath": "C:\\Users\\JD\\Desktop\\CertiF\\PRODUCTS\\DataBase\\DataBase.csproj"
               }
             }
           }
@@ -122,17 +128,20 @@
         }
       }
     },
-    "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\PR\\PRODUCTS\\DataBase\\DataBase.csproj": {
+    "C:\\Users\\JD\\Desktop\\CertiF\\PRODUCTS\\DataBase\\DataBase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\PR\\PRODUCTS\\DataBase\\DataBase.csproj",
+        "projectUniqueName": "C:\\Users\\JD\\Desktop\\CertiF\\PRODUCTS\\DataBase\\DataBase.csproj",
         "projectName": "DataBase",
-        "projectPath": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\PR\\PRODUCTS\\DataBase\\DataBase.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\PR\\PRODUCTS\\DataBase\\obj\\",
+        "projectPath": "C:\\Users\\JD\\Desktop\\CertiF\\PRODUCTS\\DataBase\\DataBase.csproj",
+        "packagesPath": "C:\\Users\\JD\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JD\\Desktop\\CertiF\\PRODUCTS\\DataBase\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\JD\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -145,8 +154,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\PR\\PRODUCTS\\BackingServices\\BackingServices.csproj": {
-                "projectPath": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\PR\\PRODUCTS\\BackingServices\\BackingServices.csproj"
+              "C:\\Users\\JD\\Desktop\\CertiF\\PRODUCTS\\BackingServices\\BackingServices.csproj": {
+                "projectPath": "C:\\Users\\JD\\Desktop\\CertiF\\PRODUCTS\\BackingServices\\BackingServices.csproj"
               }
             }
           }
@@ -204,17 +213,20 @@
         }
       }
     },
-    "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\PR\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj": {
+    "C:\\Users\\JD\\Desktop\\CertiF\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\PR\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj",
+        "projectUniqueName": "C:\\Users\\JD\\Desktop\\CertiF\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj",
         "projectName": "PRODUCTS",
-        "projectPath": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\PR\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\PR\\PRODUCTS\\PRODUCTS\\obj\\",
+        "projectPath": "C:\\Users\\JD\\Desktop\\CertiF\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj",
+        "packagesPath": "C:\\Users\\JD\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JD\\Desktop\\CertiF\\PRODUCTS\\PRODUCTS\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\JD\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -227,11 +239,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\PR\\PRODUCTS\\BackingServices\\BackingServices.csproj": {
-                "projectPath": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\PR\\PRODUCTS\\BackingServices\\BackingServices.csproj"
+              "C:\\Users\\JD\\Desktop\\CertiF\\PRODUCTS\\BackingServices\\BackingServices.csproj": {
+                "projectPath": "C:\\Users\\JD\\Desktop\\CertiF\\PRODUCTS\\BackingServices\\BackingServices.csproj"
               },
-              "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\PR\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj": {
-                "projectPath": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\PR\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj"
+              "C:\\Users\\JD\\Desktop\\CertiF\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj": {
+                "projectPath": "C:\\Users\\JD\\Desktop\\CertiF\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj"
               }
             }
           }

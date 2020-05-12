@@ -22,8 +22,38 @@ namespace PRODUCTS.BusinessLogic
             return DTOUtil.MapProductDTOList(_productTableDB.GetAll());
            
         }
+        public string generateId(string type)
+        {
+            List<Product> allProducts = _productTableDB.GetAll();
+            int maxNum = 0;
+            foreach (Product product in allProducts) {
+                int currentNum = Int16.Parse(product.Code.Remove(0, 7));
+                if (maxNum< currentNum && product.Code.Contains(type)){
+                    maxNum = currentNum;
+                }
+            }
+            switch (type){
+                case "SOCCER":
+                    return "SOCCER-" + (maxNum+1);
+                    
+                case "BASKET":
+                    return "BASKET-" + (maxNum + 1);
+                default:
+                    throw new Exception("Invalid type");
+            }
+        }
         public void CreateProduct(ProductDTO newProduct)
         {
+            
+            Product productDB = new Product();
+            productDB.Code = generateId(newProduct.Type);
+            productDB.Name = newProduct.Name;
+            productDB.Type = newProduct.Type;
+            productDB.Stock = newProduct.Stock;
+            _productTableDB.AddNew(productDB);
+
+
+            /*
             bool flag = false;
 
             List<Product> allProducts = _productTableDB.GetAll();
@@ -56,7 +86,7 @@ namespace PRODUCTS.BusinessLogic
                 productDB.Stock = productCode.Stock;
 
                 _productTableDB.AddNew(productDB);
-            }
+            }*/
 
         }
        
