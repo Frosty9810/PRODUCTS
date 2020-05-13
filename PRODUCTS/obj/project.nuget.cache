@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BXwROtUjqnLMovHIx1YZz0xIDCgPQ74m0+ZYHbGsimhKf6wsutFx5MDESxqFm8hzSrly7bNC+uLvBp/AZ7SoVA==",
+  "dgSpecHash": "ziCmrp0tLZ3vbhsMIL5ZnYqBU5HOQ3FIOUhhlcUFJLGQrxQ4xH2UVEHLxyNrvVFd1CbNoVPN4cSh6LrwfcvNLw==",
   "success": true,
-  "projectFilePath": "E:\\Series\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj",
+  "projectFilePath": "E:\\Android\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

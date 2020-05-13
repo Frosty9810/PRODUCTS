@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Series\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj": {}
+    "E:\\Android\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj": {}
   },
   "projects": {
-    "E:\\Series\\PRODUCTS\\BackingServices\\BackingServices.csproj": {
+    "E:\\Android\\PRODUCTS\\BackingServices\\BackingServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Series\\PRODUCTS\\BackingServices\\BackingServices.csproj",
+        "projectUniqueName": "E:\\Android\\PRODUCTS\\BackingServices\\BackingServices.csproj",
         "projectName": "BackingServices",
-        "projectPath": "E:\\Series\\PRODUCTS\\BackingServices\\BackingServices.csproj",
+        "projectPath": "E:\\Android\\PRODUCTS\\BackingServices\\BackingServices.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\Series\\PRODUCTS\\BackingServices\\obj\\",
+        "outputPath": "E:\\Android\\PRODUCTS\\BackingServices\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -71,14 +71,14 @@
         }
       }
     },
-    "E:\\Series\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj": {
+    "E:\\Android\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Series\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj",
+        "projectUniqueName": "E:\\Android\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj",
         "projectName": "BusinessLogic",
-        "projectPath": "E:\\Series\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj",
+        "projectPath": "E:\\Android\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\Series\\PRODUCTS\\BusinessLogic\\obj\\",
+        "outputPath": "E:\\Android\\PRODUCTS\\BusinessLogic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -99,8 +99,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "E:\\Series\\PRODUCTS\\DataBase\\DataBase.csproj": {
-                "projectPath": "E:\\Series\\PRODUCTS\\DataBase\\DataBase.csproj"
+              "E:\\Android\\PRODUCTS\\DataBase\\DataBase.csproj": {
+                "projectPath": "E:\\Android\\PRODUCTS\\DataBase\\DataBase.csproj"
               }
             }
           }
@@ -132,14 +132,14 @@
         }
       }
     },
-    "E:\\Series\\PRODUCTS\\DataBase\\DataBase.csproj": {
+    "E:\\Android\\PRODUCTS\\DataBase\\DataBase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Series\\PRODUCTS\\DataBase\\DataBase.csproj",
+        "projectUniqueName": "E:\\Android\\PRODUCTS\\DataBase\\DataBase.csproj",
         "projectName": "DataBase",
-        "projectPath": "E:\\Series\\PRODUCTS\\DataBase\\DataBase.csproj",
+        "projectPath": "E:\\Android\\PRODUCTS\\DataBase\\DataBase.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\Series\\PRODUCTS\\DataBase\\obj\\",
+        "outputPath": "E:\\Android\\PRODUCTS\\DataBase\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -160,8 +160,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "E:\\Series\\PRODUCTS\\BackingServices\\BackingServices.csproj": {
-                "projectPath": "E:\\Series\\PRODUCTS\\BackingServices\\BackingServices.csproj"
+              "E:\\Android\\PRODUCTS\\BackingServices\\BackingServices.csproj": {
+                "projectPath": "E:\\Android\\PRODUCTS\\BackingServices\\BackingServices.csproj"
               }
             }
           }
@@ -219,14 +219,14 @@
         }
       }
     },
-    "E:\\Series\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj": {
+    "E:\\Android\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Series\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj",
+        "projectUniqueName": "E:\\Android\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj",
         "projectName": "PRODUCTS",
-        "projectPath": "E:\\Series\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj",
+        "projectPath": "E:\\Android\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\Series\\PRODUCTS\\PRODUCTS\\obj\\",
+        "outputPath": "E:\\Android\\PRODUCTS\\PRODUCTS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -247,11 +247,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "E:\\Series\\PRODUCTS\\BackingServices\\BackingServices.csproj": {
-                "projectPath": "E:\\Series\\PRODUCTS\\BackingServices\\BackingServices.csproj"
+              "E:\\Android\\PRODUCTS\\BackingServices\\BackingServices.csproj": {
+                "projectPath": "E:\\Android\\PRODUCTS\\BackingServices\\BackingServices.csproj"
               },
-              "E:\\Series\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj": {
-                "projectPath": "E:\\Series\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj"
+              "E:\\Android\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj": {
+                "projectPath": "E:\\Android\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj"
               }
             }
           }
