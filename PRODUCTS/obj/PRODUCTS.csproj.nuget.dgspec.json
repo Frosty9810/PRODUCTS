@@ -1,20 +1,82 @@
 {
   "format": 1,
   "restore": {
-    "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj": {}
+    "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj": {}
   },
   "projects": {
-    "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\BackingServices\\BackingServices.csproj": {
+    "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\BackingServices\\BackingServices.csproj",
-        "projectName": "BackingServices",
-        "projectPath": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\BackingServices\\BackingServices.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\BackingServices\\obj\\",
+        "projectUniqueName": "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj",
+        "projectName": "BusinessLogic",
+        "projectPath": "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\bramo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\BusinessLogic\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bramo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\DataBase\\DataBase.csproj": {
+                "projectPath": "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\DataBase\\DataBase.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\DataBase\\DataBase.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\DataBase\\DataBase.csproj",
+        "projectName": "DataBase",
+        "projectPath": "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\DataBase\\DataBase.csproj",
+        "packagesPath": "C:\\Users\\bramo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\DataBase\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bramo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,128 +89,6 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "dependencies": {
-            "Microsoft.Extensions.Configuration": {
-              "target": "Package",
-              "version": "[3.1.3, )"
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[12.0.3, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj",
-        "projectName": "BusinessLogic",
-        "projectPath": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\BusinessLogic\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "projectReferences": {
-              "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\DataBase\\DataBase.csproj": {
-                "projectPath": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\DataBase\\DataBase.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\DataBase\\DataBase.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\DataBase\\DataBase.csproj",
-        "projectName": "DataBase",
-        "projectPath": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\DataBase\\DataBase.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\DataBase\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "projectReferences": {
-              "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\BackingServices\\BackingServices.csproj": {
-                "projectPath": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\BackingServices\\BackingServices.csproj"
-              }
-            }
           }
         },
         "warningProperties": {
@@ -204,17 +144,20 @@
         }
       }
     },
-    "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj": {
+    "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj",
+        "projectUniqueName": "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj",
         "projectName": "PRODUCTS",
-        "projectPath": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\PRODUCTS\\obj\\",
+        "projectPath": "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj",
+        "packagesPath": "C:\\Users\\bramo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\PRODUCTS\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bramo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -227,11 +170,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\BackingServices\\BackingServices.csproj": {
-                "projectPath": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\BackingServices\\BackingServices.csproj"
-              },
-              "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj": {
-                "projectPath": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj"
+              "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj": {
+                "projectPath": "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj"
               }
             }
           }

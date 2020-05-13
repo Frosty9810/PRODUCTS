@@ -1989,20 +1989,6 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "BackingServices/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "Microsoft.Extensions.Configuration": "3.1.3",
-          "Newtonsoft.Json": "12.0.3"
-        },
-        "compile": {
-          "bin/placeholder/BackingServices.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/BackingServices.dll": {}
-        }
-      },
       "BusinessLogic/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -2020,7 +2006,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "BackingServices": "1.0.0",
           "Microsoft.Extensions.Configuration": "3.1.3",
           "Microsoft.Extensions.Logging": "3.1.3",
           "Newtonsoft.Json": "12.0.3",
@@ -6469,11 +6454,6 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "BackingServices/1.0.0": {
-      "type": "project",
-      "path": "../BackingServices/BackingServices.csproj",
-      "msbuildProject": "../BackingServices/BackingServices.csproj"
-    },
     "BusinessLogic/1.0.0": {
       "type": "project",
       "path": "../BusinessLogic/BusinessLogic.csproj",
@@ -6487,7 +6467,6 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "BackingServices >= 1.0.0",
       "BusinessLogic >= 1.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.2",
       "Serilog >= 2.9.0",
@@ -6499,19 +6478,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dell\\.nuget\\packages\\": {}
+    "C:\\Users\\bramo\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj",
+      "projectUniqueName": "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj",
       "projectName": "PRODUCTS",
-      "projectPath": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj",
-      "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\PRODUCTS\\obj\\",
+      "projectPath": "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj",
+      "packagesPath": "C:\\Users\\bramo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\PRODUCTS\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\bramo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6524,11 +6507,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\BackingServices\\BackingServices.csproj": {
-              "projectPath": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\BackingServices\\BackingServices.csproj"
-            },
-            "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj": {
-              "projectPath": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj"
+            "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj": {
+              "projectPath": "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj"
             }
           }
         }

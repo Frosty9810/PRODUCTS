@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using PRODUCTS.BusinessLogic;
@@ -32,7 +31,6 @@ namespace PRODUCTS.Controllers
         [Route("product")]
         public ProductDTO Post([FromBody] ProductDTO newproductDTO)
         {
-            
            // Console.WriteLine("End point");
             return _productLogic.CreateProduct(newproductDTO);
         }
@@ -42,14 +40,10 @@ namespace PRODUCTS.Controllers
         [Route("product/{id}")]
         public ProductDTO Put(string id,[FromBody] ProductDTO updateProduct)
         {
-        
-
            return _productLogic.updateProduct(updateProduct, id);
-            
         }
 
         // DELETE api/product/5
-
         [HttpDelete]
         [Route("product/{id}")]
         public bool Delete(string id)
