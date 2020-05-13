@@ -1,595 +1,96 @@
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\appsettings.Development.json
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\appsettings.QA.json
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.exe
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.deps.json
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.runtimeconfig.json
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.runtimeconfig.dev.json
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.pdb
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Serilog.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Serilog.Sinks.Console.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Serilog.Sinks.File.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Serilog.Sinks.RollingFile.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\BackingServices.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\BusinessLogic.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Database.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\BusinessLogic.pdb
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\BackingServices.pdb
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Database.pdb
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.csprojAssemblyReference.cache
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.csproj.CoreCompileInputs.cache
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.AssemblyInfoInputs.cache
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.AssemblyInfo.cs
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.RazorTargetAssemblyInfo.cache
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.csproj.CopyComplete
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\staticwebassets\PRODUCTS.StaticWebAssets.Manifest.cache
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\staticwebassets\PRODUCTS.StaticWebAssets.xml
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.pdb
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.genruntimeconfig.cache
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\appsettings.Development.json
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\appsettings.json
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\appsettings.QA.json
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.exe
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.deps.json
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.runtimeconfig.json
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.runtimeconfig.dev.json
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.pdb
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Serilog.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Serilog.Sinks.Console.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Serilog.Sinks.File.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Serilog.Sinks.RollingFile.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\BackingServices.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\BusinessLogic.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\DataBase.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\BusinessLogic.pdb
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\BackingServices.pdb
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\DataBase.pdb
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.csprojAssemblyReference.cache
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.csproj.CoreCompileInputs.cache
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.MvcApplicationPartsAssemblyInfo.cs
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.MvcApplicationPartsAssemblyInfo.cache
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.AssemblyInfoInputs.cache
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.AssemblyInfo.cs
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.RazorTargetAssemblyInfo.cache
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.csproj.CopyComplete
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\staticwebassets\PRODUCTS.StaticWebAssets.Manifest.cache
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\staticwebassets\PRODUCTS.StaticWebAssets.xml
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.pdb
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PR\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.genruntimeconfig.cache
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\appsettings.Development.json
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\appsettings.QA.json
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.exe
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.deps.json
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.runtimeconfig.json
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.runtimeconfig.dev.json
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.pdb
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Serilog.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Serilog.Sinks.Console.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Serilog.Sinks.File.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Serilog.Sinks.RollingFile.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\BackingServices.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\BusinessLogic.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\DataBase.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\BusinessLogic.pdb
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\BackingServices.pdb
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\DataBase.pdb
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.csprojAssemblyReference.cache
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.csproj.CoreCompileInputs.cache
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.AssemblyInfoInputs.cache
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.AssemblyInfo.cs
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.RazorTargetAssemblyInfo.cache
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.csproj.CopyComplete
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\staticwebassets\PRODUCTS.StaticWebAssets.Manifest.cache
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\staticwebassets\PRODUCTS.StaticWebAssets.xml
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.pdb
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.genruntimeconfig.cache
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\appsettings.Development.json
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\appsettings.json
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\appsettings.QA.json
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.exe
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.deps.json
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.runtimeconfig.json
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.runtimeconfig.dev.json
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.pdb
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Serilog.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Serilog.Sinks.Console.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Serilog.Sinks.File.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Serilog.Sinks.RollingFile.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\BackingServices.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\BusinessLogic.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\DataBase.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\BusinessLogic.pdb
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\BackingServices.pdb
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\DataBase.pdb
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.csprojAssemblyReference.cache
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.csproj.CoreCompileInputs.cache
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.MvcApplicationPartsAssemblyInfo.cs
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.MvcApplicationPartsAssemblyInfo.cache
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.AssemblyInfoInputs.cache
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.AssemblyInfo.cs
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.RazorTargetAssemblyInfo.cache
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.csproj.CopyComplete
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\staticwebassets\PRODUCTS.StaticWebAssets.Manifest.cache
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\staticwebassets\PRODUCTS.StaticWebAssets.xml
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.dll
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.pdb
-A:\PABLO\UPB\QUINTO SEMESTRE\CERTIFICACION\PR_FINAL\PRODUCT\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.genruntimeconfig.cache
-E:\Series\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.dll
-E:\Series\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.pdb
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\appsettings.Development.json
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\appsettings.json
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\appsettings.QA.json
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.exe
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.deps.json
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.runtimeconfig.json
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.runtimeconfig.dev.json
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.pdb
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Serilog.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Serilog.Sinks.Console.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Serilog.Sinks.File.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Serilog.Sinks.RollingFile.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\BackingServices.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\BusinessLogic.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\DataBase.dll
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\BusinessLogic.pdb
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\BackingServices.pdb
-E:\Series\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\DataBase.pdb
-E:\Series\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.csprojAssemblyReference.cache
-E:\Series\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.csproj.CoreCompileInputs.cache
-E:\Series\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.MvcApplicationPartsAssemblyInfo.cs
-E:\Series\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.MvcApplicationPartsAssemblyInfo.cache
-E:\Series\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.AssemblyInfoInputs.cache
-E:\Series\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.AssemblyInfo.cs
-E:\Series\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.RazorTargetAssemblyInfo.cache
-E:\Series\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.csproj.CopyComplete
-E:\Series\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\staticwebassets\PRODUCTS.StaticWebAssets.Manifest.cache
-E:\Series\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\staticwebassets\PRODUCTS.StaticWebAssets.xml
-E:\Series\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.genruntimeconfig.cache
+C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.exe
+C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.deps.json
+C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.runtimeconfig.json
+C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.runtimeconfig.dev.json
+C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.dll
+C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.pdb
+C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.csprojAssemblyReference.cache
+C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.csproj.CoreCompileInputs.cache
+C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.AssemblyInfoInputs.cache
+C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.AssemblyInfo.cs
+C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.RazorTargetAssemblyInfo.cache
+C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\obj\Debug\netcoreapp3.1\staticwebassets\PRODUCTS.StaticWebAssets.Manifest.cache
+C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\obj\Debug\netcoreapp3.1\staticwebassets\PRODUCTS.StaticWebAssets.xml
+C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.dll
+C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.pdb
+C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.genruntimeconfig.cache
+<<<<<<< HEAD
+C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.exe
+C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.deps.json
+C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.runtimeconfig.json
+C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.runtimeconfig.dev.json
+C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.dll
+C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.pdb
+C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.csprojAssemblyReference.cache
+C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.AssemblyInfoInputs.cache
+C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.AssemblyInfo.cs
+C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.RazorTargetAssemblyInfo.cache
+C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\staticwebassets\PRODUCTS.StaticWebAssets.Manifest.cache
+C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\staticwebassets\PRODUCTS.StaticWebAssets.xml
+C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.dll
+C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.pdb
+C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.genruntimeconfig.cache
+=======
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.exe
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.deps.json
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.runtimeconfig.json
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.runtimeconfig.dev.json
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.dll
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\PRODUCTS.pdb
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.csprojAssemblyReference.cache
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.csproj.CoreCompileInputs.cache
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.MvcApplicationPartsAssemblyInfo.cache
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.AssemblyInfoInputs.cache
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.AssemblyInfo.cs
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.RazorTargetAssemblyInfo.cache
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\staticwebassets\PRODUCTS.StaticWebAssets.Manifest.cache
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\staticwebassets\PRODUCTS.StaticWebAssets.xml
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.dll
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.pdb
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.genruntimeconfig.cache
+>>>>>>> origin/StefanoDev
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.MvcApplicationPartsAssemblyInfo.cs
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.csproj.CopyComplete
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\BusinessLogic.dll
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\DataBase.dll
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\BusinessLogic.pdb
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\DataBase.pdb
+C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\bin\Debug\netcoreapp3.1\BusinessLogic.dll
+C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\bin\Debug\netcoreapp3.1\DataBase.dll
+C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\bin\Debug\netcoreapp3.1\BusinessLogic.pdb
+C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\bin\Debug\netcoreapp3.1\DataBase.pdb
+C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.csproj.CopyComplete
+C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\BusinessLogic.dll
+C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\DataBase.dll
+C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\BusinessLogic.pdb
+C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\DataBase.pdb
+C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.csproj.CopyComplete
+C:\Users\HP\Documents\2020-UPB\I\Certificacion I\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\appsettings.QA.json
+C:\Users\froil\Desktop\tempora\SegundoParcial\PRODUCTS\bin\Debug\netcoreapp3.1\appsettings.QA.json
+C:\Stefano\Cetificacion1\Grupo2\PRODUCTS\bin\Debug\netcoreapp3.1\appsettings.QA.json
