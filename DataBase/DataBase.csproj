@@ -12,9 +12,5 @@
     <PackageReference Include="Serilog.Sinks.Console" Version="3.1.1" />
     <PackageReference Include="Serilog.Sinks.RollingFile" Version="3.3.0" />
   </ItemGroup>
-   
-   <ItemGroup>
-    <ProjectReference Include="../BackingServices/BackingServices.csproj" />
-  </ItemGroup>
 
 </Project>

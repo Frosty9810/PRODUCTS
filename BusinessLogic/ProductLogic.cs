@@ -19,9 +19,7 @@ namespace PRODUCTS.BusinessLogic
 
         public List<ProductDTO> GetAll() 
         {
-
             return DTOUtil.MapProductDTOList(_productTableDB.GetAll());
-           
         }
         private string generateId(string type)
         {
@@ -35,7 +33,7 @@ namespace PRODUCTS.BusinessLogic
             }
             switch (type){
                 case "SOCCER":
-                    return "SOCCER-" + (maxNum+1);
+                    return "SOCCER-" + (maxNum + 1);
                     
                 case "BASKET":
                     return "BASKET-" + (maxNum + 1);
@@ -43,31 +41,25 @@ namespace PRODUCTS.BusinessLogic
                     throw new InvalidTypeException("Invalid type");
             }
         }
+
         public ProductDTO CreateProduct(ProductDTO newProduct)
         {
-
             if (string.IsNullOrEmpty(newProduct.Name))
             {
                 throw new EmptyorNullNameException("Name cannot be empty");
-
             }
             if (string.IsNullOrEmpty(newProduct.Type))
             {
                 throw new EmptyOrNullTypeException("Type cannot be empty");
-
             }
-
             if (Convert.ToInt32(newProduct.Stock) < 0 || Convert.ToInt32(newProduct.Stock) > 10)
             {
                 throw new StockBetweenException("The Stock must be between 0 and 10.");
-
             }
             if (newProduct.Name.Length < 3)
             {
                 throw new NameLengthException("The name must have at least more than 3 characters");
-
             }
-
 
             Product productDB = new Product()
             {
@@ -77,57 +69,15 @@ namespace PRODUCTS.BusinessLogic
                 Stock = newProduct.Stock
             };
 
-
             Product product = _productTableDB.AddNew(productDB);
-
             return DTOUtil.MapProductDTO(product);
-
-
-
-            /*
-            bool flag = false;
-
-            List<Product> allProducts = _productTableDB.GetAll();
-
-            Product productDB = new Product();
-
-            foreach(Product product in allProducts)
-            {
-                if(product.Code == newProduct.Code)
-                {
-                    product.Name = newProduct.Name;
-                    product.Type = newProduct.Type;
-                    product.Stock = newProduct.Stock + product.Stock;
-                    productDB.Code = product.Code;
-                    flag = true;
-                }
-            }
-
-            if(flag)
-            {
-                updateProduct(newProduct, productDB.Code);
-            }
-            else
-            {
-                ProductDTO productCode = generateCode(allProducts, newProduct);
-
-                productDB.Name = productCode.Name;
-                productDB.Type = productCode.Type;
-                productDB.Code = productCode.Code;
-                productDB.Stock = productCode.Stock;
-
-                _productTableDB.AddNew(productDB);
-            }*/
-
         }
 
         public ProductDTO updateProduct(ProductDTO upProduct, string code)
         {
-
             if (upProduct.Code == null)
             {
                 throw new Exception("Invalid data, code is misssing"); // StudentLogicInvalidDataException()
-
             }
 
             foreach (ProductDTO product in GetAll())
@@ -154,7 +104,6 @@ namespace PRODUCTS.BusinessLogic
                 }
             }
 
-
             Product productDB = new Product(upProduct.Name, upProduct.Type, code, upProduct.Stock);
             //  _productTableDB.Update(productDB, code);
             return DTOUtil.MapProductDTO(_productTableDB.Update(productDB, code));
@@ -168,7 +117,6 @@ namespace PRODUCTS.BusinessLogic
             if (productfound == null)
             {
                 throw new NotFoundCodeException("We could not find the code");
-
             }
             return _productTableDB.Delete(code);
         }

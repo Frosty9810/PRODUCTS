@@ -1,4 +1,3 @@
-
 namespace PRODUCTS.DataBase.Models
 {
     public class Product

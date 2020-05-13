@@ -5,7 +5,6 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using PRODUCTS.DataBase;
 using PRODUCTS.BusinessLogic;
-using Services;
 using PRODUCTS.Middleware;
 using Serilog;
 using Serilog.Events;
@@ -51,10 +50,7 @@ namespace PRODUCTS
             services.AddTransient<IProductsListLogic, ProductsListLogic>();
             services.AddTransient<IProductLogic, ProductLogic>();
             // Database Layer
-            //services.AddSingleton<IProductDBManager, ProductDBManager>();
             services.AddTransient<IProductListDBManager, ProductListDBManager>();
-
-            services.AddTransient<IProductBackingService, ProductBackingService>();
 
             // ADDING CORS
             // 1. Update launch settings according with config
@@ -88,11 +84,8 @@ namespace PRODUCTS
                     }
                 );
             });
-           
-
         }
 
-        
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             

@@ -98,11 +98,9 @@ C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\net
 C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\BackingServices.dll
 C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\BusinessLogic.dll
 C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Database.dll
 C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\BusinessLogic.pdb
-C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\BackingServices.pdb
 C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\Database.pdb
 C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.csprojAssemblyReference.cache
 C:\Users\bramo\OneDrive\Escritorio\Certificacion\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.csproj.CoreCompileInputs.cache
