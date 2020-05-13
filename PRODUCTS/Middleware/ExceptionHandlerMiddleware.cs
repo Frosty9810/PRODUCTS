@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 using Microsoft.VisualBasic;
 using Newtonsoft.Json;
-using BackingServices.Exceptions;
+using BusinessLogic.Exceptions;
 
 
 namespace PRODUCTS.Middleware
@@ -26,48 +26,51 @@ namespace PRODUCTS.Middleware
         {
             try
             {
-                Console.WriteLine("This is the exception Middleware");
-                 await _next(httpContext);
+                await _next(httpContext);
             }
-            
             catch (Exception ex)
             {
                 await HandleError(httpContext, ex);
             }
-           
         }
-        private static Task HandleError(HttpContext httpContext, Exception ex)
+
+        private static int getCode(Exception ex)
         {
-            int httpStatusCode;
-            string messageToShow;
 
-            if (ex is BackingServiceException)
-            {
-                httpStatusCode = (int)HttpStatusCode.ServiceUnavailable;
-                messageToShow = ex.Message;
-            }
-            else if (ex is InvalidOperationException)
-            {
+            int code = 500;
+            //Agarra el tipo de exception 
+            if (ex.GetType() == typeof(EmptyorNullNameException))
+                code = ((EmptyorNullNameException)ex).Code;
+            if (ex.GetType() == typeof(EmptyOrNullTypeException))
+                code = ((EmptyOrNullTypeException)ex).Code;
+            if (ex.GetType() == typeof(StockBetweenException))
+                code = ((StockBetweenException)ex).Code;
+            if (ex.GetType() == typeof(NameLengthException))
+                code = ((NameLengthException)ex).Code;
+            if (ex.GetType() == typeof(CodeNullorEmptyException))
+                code = ((CodeNullorEmptyException)ex).Code;
+            if (ex.GetType() == typeof(NotFoundCodeException))
+                code = ((NotFoundCodeException)ex).Code;
+            if (ex.GetType() == typeof(InvalidTypeException))
+                code = ((InvalidTypeException)ex).Code;
 
+            return code;
+        }
+        private static Task HandleError(HttpContext context, Exception ex)
+        {
+            context.Response.ContentType = "application/json";
 
-                httpStatusCode = (int)HttpStatusCode.BadRequest;
-                messageToShow = ex.Message;
-
-            }
-            else 
+            var errorObj = new
             {
-                httpStatusCode = (int)HttpStatusCode.InternalServerError;
-                messageToShow = "The server ocurrs an unexpected error.";
-            }
-            var errorModel = new
-            {
-                status = httpStatusCode,
-                message = messageToShow
+                code = getCode(ex),
+                message = ex.Message
             };
-            httpContext.Response.StatusCode = httpStatusCode;
-            return httpContext.Response.WriteAsync(JsonConvert.SerializeObject(errorModel));
+
+            string jsonObj = JsonConvert.SerializeObject(errorObj);
+            context.Response.StatusCode = getCode(ex);
+            return context.Response.WriteAsync(jsonObj);
+        }
     }
-   }
     //Agarra y tener el middleware como parte de config
     // Extension method used to add the middleware to the HTTP request pipeline.
     public static class ExceptionHandlerMiddlewareExtensions

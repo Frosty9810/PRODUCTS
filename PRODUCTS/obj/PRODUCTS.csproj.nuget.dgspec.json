@@ -1,26 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Series\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj": {}
+    "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj": {}
   },
   "projects": {
-    "E:\\Series\\PRODUCTS\\BackingServices\\BackingServices.csproj": {
+    "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\BackingServices\\BackingServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Series\\PRODUCTS\\BackingServices\\BackingServices.csproj",
+        "projectUniqueName": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\BackingServices\\BackingServices.csproj",
         "projectName": "BackingServices",
-        "projectPath": "E:\\Series\\PRODUCTS\\BackingServices\\BackingServices.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\Series\\PRODUCTS\\BackingServices\\obj\\",
+        "projectPath": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\BackingServices\\BackingServices.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\BackingServices\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -71,23 +66,18 @@
         }
       }
     },
-    "E:\\Series\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj": {
+    "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Series\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj",
+        "projectUniqueName": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj",
         "projectName": "BusinessLogic",
-        "projectPath": "E:\\Series\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\Series\\PRODUCTS\\BusinessLogic\\obj\\",
+        "projectPath": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\BusinessLogic\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -99,8 +89,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "E:\\Series\\PRODUCTS\\DataBase\\DataBase.csproj": {
-                "projectPath": "E:\\Series\\PRODUCTS\\DataBase\\DataBase.csproj"
+              "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\DataBase\\DataBase.csproj": {
+                "projectPath": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\DataBase\\DataBase.csproj"
               }
             }
           }
@@ -132,23 +122,18 @@
         }
       }
     },
-    "E:\\Series\\PRODUCTS\\DataBase\\DataBase.csproj": {
+    "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\DataBase\\DataBase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Series\\PRODUCTS\\DataBase\\DataBase.csproj",
+        "projectUniqueName": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\DataBase\\DataBase.csproj",
         "projectName": "DataBase",
-        "projectPath": "E:\\Series\\PRODUCTS\\DataBase\\DataBase.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\Series\\PRODUCTS\\DataBase\\obj\\",
+        "projectPath": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\DataBase\\DataBase.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\DataBase\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -160,8 +145,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "E:\\Series\\PRODUCTS\\BackingServices\\BackingServices.csproj": {
-                "projectPath": "E:\\Series\\PRODUCTS\\BackingServices\\BackingServices.csproj"
+              "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\BackingServices\\BackingServices.csproj": {
+                "projectPath": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\BackingServices\\BackingServices.csproj"
               }
             }
           }
@@ -219,23 +204,18 @@
         }
       }
     },
-    "E:\\Series\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj": {
+    "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Series\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj",
+        "projectUniqueName": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj",
         "projectName": "PRODUCTS",
-        "projectPath": "E:\\Series\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\Series\\PRODUCTS\\PRODUCTS\\obj\\",
+        "projectPath": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\PRODUCTS\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -247,11 +227,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "E:\\Series\\PRODUCTS\\BackingServices\\BackingServices.csproj": {
-                "projectPath": "E:\\Series\\PRODUCTS\\BackingServices\\BackingServices.csproj"
+              "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\BackingServices\\BackingServices.csproj": {
+                "projectPath": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\BackingServices\\BackingServices.csproj"
               },
-              "E:\\Series\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj": {
-                "projectPath": "E:\\Series\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj"
+              "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj": {
+                "projectPath": "A:\\PABLO\\UPB\\QUINTO SEMESTRE\\CERTIFICACION\\PR_FINAL\\EXCEPTION-N\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj"
               }
             }
           }
