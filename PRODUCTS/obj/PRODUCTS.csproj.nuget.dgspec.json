@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj": {}
+    "E:\\Android\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj": {
+    "E:\\Android\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj",
+        "projectUniqueName": "E:\\Android\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj",
         "projectName": "BusinessLogic",
-        "projectPath": "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj",
-        "packagesPath": "C:\\Users\\bramo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\BusinessLogic\\obj\\",
+        "projectPath": "E:\\Android\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "E:\\Android\\PRODUCTS\\BusinessLogic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\bramo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -30,8 +32,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\DataBase\\DataBase.csproj": {
-                "projectPath": "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\DataBase\\DataBase.csproj"
+              "E:\\Android\\PRODUCTS\\DataBase\\DataBase.csproj": {
+                "projectPath": "E:\\Android\\PRODUCTS\\DataBase\\DataBase.csproj"
               }
             }
           }
@@ -63,21 +65,23 @@
         }
       }
     },
-    "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\DataBase\\DataBase.csproj": {
+    "E:\\Android\\PRODUCTS\\DataBase\\DataBase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\DataBase\\DataBase.csproj",
+        "projectUniqueName": "E:\\Android\\PRODUCTS\\DataBase\\DataBase.csproj",
         "projectName": "DataBase",
-        "projectPath": "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\DataBase\\DataBase.csproj",
-        "packagesPath": "C:\\Users\\bramo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\DataBase\\obj\\",
+        "projectPath": "E:\\Android\\PRODUCTS\\DataBase\\DataBase.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "E:\\Android\\PRODUCTS\\DataBase\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\bramo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -144,21 +148,23 @@
         }
       }
     },
-    "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj": {
+    "E:\\Android\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj",
+        "projectUniqueName": "E:\\Android\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj",
         "projectName": "PRODUCTS",
-        "projectPath": "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj",
-        "packagesPath": "C:\\Users\\bramo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\PRODUCTS\\obj\\",
+        "projectPath": "E:\\Android\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "E:\\Android\\PRODUCTS\\PRODUCTS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\bramo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -170,8 +176,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj": {
-                "projectPath": "C:\\Users\\bramo\\OneDrive\\Escritorio\\Certificacion\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj"
+              "E:\\Android\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj": {
+                "projectPath": "E:\\Android\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj"
               }
             }
           }
