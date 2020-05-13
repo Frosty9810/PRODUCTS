@@ -4,6 +4,7 @@ using PRODUCTS.DataBase.Models;
 using PRODUCTS.DTOModels;
 using PRODUCTS.DataBase;
 using System;
+using BusinessLogic.Exceptions;
 
 namespace PRODUCTS.BusinessLogic
 {
@@ -39,19 +40,46 @@ namespace PRODUCTS.BusinessLogic
                 case "BASKET":
                     return "BASKET-" + (maxNum + 1);
                 default:
-                    throw new Exception("Invalid type");
+                    throw new InvalidTypeException("Invalid type");
             }
         }
         public ProductDTO CreateProduct(ProductDTO newProduct)
         {
-            
-            Product productDB = new Product();
-            productDB.Code = generateId(newProduct.Type);
-            productDB.Name = newProduct.Name;
-            productDB.Type = newProduct.Type;
-            productDB.Stock = newProduct.Stock;
+
+            if (string.IsNullOrEmpty(newProduct.Name))
+            {
+                throw new EmptyorNullNameException("Name cannot be empty");
+
+            }
+            if (string.IsNullOrEmpty(newProduct.Type))
+            {
+                throw new EmptyOrNullTypeException("Type cannot be empty");
+
+            }
+
+            if (Convert.ToInt32(newProduct.Stock) < 0 || Convert.ToInt32(newProduct.Stock) > 10)
+            {
+                throw new StockBetweenException("The Stock must be between 0 and 10.");
+
+            }
+            if (newProduct.Name.Length < 3)
+            {
+                throw new NameLengthException("The name must have at least more than 3 characters");
+
+            }
+
+
+            Product productDB = new Product()
+            {
+                Code = generateId(newProduct.Type),
+                Name = newProduct.Name,
+                Type = newProduct.Type,
+                Stock = newProduct.Stock
+            };
+
+
             Product product = _productTableDB.AddNew(productDB);
-           
+
             return DTOUtil.MapProductDTO(product);
 
 
@@ -92,11 +120,11 @@ namespace PRODUCTS.BusinessLogic
             }*/
 
         }
-       
+
         public ProductDTO updateProduct(ProductDTO upProduct, string code)
         {
-            
-            if (upProduct.Code == null) 
+
+            if (upProduct.Code == null)
             {
                 throw new Exception("Invalid data, code is misssing"); // StudentLogicInvalidDataException()
 
@@ -126,15 +154,22 @@ namespace PRODUCTS.BusinessLogic
                 }
             }
 
-           
+
             Product productDB = new Product(upProduct.Name, upProduct.Type, code, upProduct.Stock);
-             //  _productTableDB.Update(productDB, code);
+            //  _productTableDB.Update(productDB, code);
             return DTOUtil.MapProductDTO(_productTableDB.Update(productDB, code));
         }
 
         public bool deleteProduct(string code)
         {
-            
+            List<ProductDTO> product = DTOUtil.MapProductDTOList(_productTableDB.GetAll());
+            ProductDTO productfound = product.Find(f => f.Code.Contains(code));
+
+            if (productfound == null)
+            {
+                throw new NotFoundCodeException("We could not find the code");
+
+            }
             return _productTableDB.Delete(code);
         }
 
