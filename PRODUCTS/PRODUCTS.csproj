@@ -1,23 +1,21 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.3.3" />
-    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="5.3.3" />
-    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUi" Version="5.3.3" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.2" />
+    <PackageReference Include="Serilog" Version="2.9.0" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="3.1.1" />
+    <PackageReference Include="Serilog.Sinks.RollingFile" Version="3.3.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.4.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="5.4.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUi" Version="5.4.1" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="../BusinessLogic/BusinessLogic.csproj" />
-    <ProjectReference Include="../DataBase/DataBase.csproj" />
+    <ProjectReference Include="../BackingServices/BackingServices.csproj" />
   </ItemGroup>
-
-
 </Project>

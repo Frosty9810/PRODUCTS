@@ -1,16 +1,13 @@
-
-namespace PRODUCTS.DataBase.Models
+namespace Services
 {
-    public class Product
+    public class ProductBsDTO
     {
         public string Name { get; set; }
         public string Type { get; set; }
         public string Code { get; set; }
-        public int Stock { get; set;}
+        public int Stock { get; set; }
 
-        public Product() { }
-
-        public Product(string name, string type, string code, int stock)
+        public ProductBsDTO(string name, string type, string code, int stock)
         {
             Name = name;
             Type = type;

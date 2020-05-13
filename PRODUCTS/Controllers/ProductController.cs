@@ -1,12 +1,12 @@
+using System;
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
-
 using PRODUCTS.BusinessLogic;
 using PRODUCTS.DTOModels;
 
 namespace PRODUCTS.Controllers
 {
-    [Route("Products")]
+    //[Route("Products")]
     [ApiController]
     public class ProductController : ControllerBase
     {
@@ -18,34 +18,43 @@ namespace PRODUCTS.Controllers
 
         // GET api/product
         [HttpGet]
+        [Route("product")]
         public List<ProductDTO> GetAll()
         {
             return _productLogic.GetAll();
         }
-        
+         //<response code="201">Returns the newly created item</response>
+
         // POST api/product
         [HttpPost]
+        //[ProducesResponseType(StatusCodes.Status201Created)]
+
         [Route("product")]
-        public void Post([FromBody] ProductDTO newproductDTO)
+        public ProductDTO Post([FromBody] ProductDTO newproductDTO)
         {
-            _productLogic.CreateProduct(newproductDTO);
+            
+           // Console.WriteLine("End point");
+            return _productLogic.CreateProduct(newproductDTO);
         }
 
         // PUT api/product/5
         [HttpPut]
         [Route("product/{id}")]
-        public void Put(string id,[FromBody] ProductDTO updateProduct)
+        public ProductDTO Put(string id,[FromBody] ProductDTO updateProduct)
         {
-            _productLogic.updateProduct(updateProduct, id);
+        
+
+           return _productLogic.updateProduct(updateProduct, id);
+            
         }
 
         // DELETE api/product/5
+
         [HttpDelete]
         [Route("product/{id}")]
-        public void Delete(string id)
+        public bool Delete(string id)
         {
-            _productLogic.deleteProduct(id);
+            return _productLogic.deleteProduct(id);
         }
-        
     }
 }

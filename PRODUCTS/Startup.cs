@@ -1,17 +1,15 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using PRODUCTS.DataBase;
 using PRODUCTS.BusinessLogic;
+using Services;
+using PRODUCTS.Middleware;
+using Serilog;
+using Serilog.Events;
+
 
 namespace PRODUCTS
 {
@@ -29,6 +27,18 @@ namespace PRODUCTS
                 .AddEnvironmentVariables();
 
             Configuration = builder.Build();
+            string logpath = Configuration.GetSection("Logging").GetSection("FileLocation").Value;
+
+            Log.Logger = new LoggerConfiguration()
+                .MinimumLevel
+                .Information()
+                .WriteTo.Console()
+                .WriteTo.RollingFile(logpath, LogEventLevel.Information)
+                .CreateLogger();
+
+            Log.Information("This app is using the config file: " + $"appsettings.{env.EnvironmentName}.json");
+
+
         }
 
         public IConfiguration Configuration { get; }
@@ -37,14 +47,29 @@ namespace PRODUCTS
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-
+            // Business Logic
             services.AddTransient<IProductsListLogic, ProductsListLogic>();
-
             services.AddTransient<IProductLogic, ProductLogic>();
+            // Database Layer
+            //services.AddSingleton<IProductDBManager, ProductDBManager>();
+            services.AddTransient<IProductListDBManager, ProductListDBManager>();
 
-            services.AddSingleton<IProductsDB, ProductTableDB>();
+            services.AddTransient<IProductBackingService, ProductBackingService>();
 
-             var swaggerTitle = Configuration
+            // ADDING CORS
+            // 1. Update launch settings according with config
+            // 2. Add this block to startup (ConfigureServices)
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAll",
+                    builder => builder.WithOrigins("*")
+                                      .AllowAnyHeader()
+                                      .AllowAnyMethod()
+                                      );
+            });
+            // End CORS block
+
+            var swaggerTitle = Configuration
                 .GetSection(SWAGGER_SECTION_SETTING_KEY)
                 .GetSection(SWAGGER_SECTION_SETTING_TITLE_KEY);
             var swaggerVersion = Configuration
@@ -63,28 +88,34 @@ namespace PRODUCTS
                     }
                 );
             });
+           
 
         }
 
         
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            app.UseExceptionHandlerMiddleware();
+            //app.UseHsts();
             //app.UseHttpsRedirection();
 
             app.UseRouting();
 
-            app.UseAuthorization();
+            //app.UseAuthorization();
+            app.UseCors("AllowAll");
+
+            app.UseAuthorizationMiddleware();
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
             });
-
+            //Inyeccion al final, no afecta a la logica, por tal razon va al final
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
