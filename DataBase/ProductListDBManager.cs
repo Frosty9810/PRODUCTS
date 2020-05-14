@@ -6,6 +6,7 @@ using System.IO;
 using DataBase.Models;
 using Microsoft.Extensions.Logging;
 using Serilog;
+using System;
 
 namespace PRODUCTS.DataBase
 {
@@ -27,13 +28,24 @@ namespace PRODUCTS.DataBase
 
         public void InitDBContext()
         {
-            // read path from config for DB (JSON)
-            _dbPath = _configuration.GetSection("Database").GetSection("connectionString").Value;
-            // "Connect to JSON File" => DeserializeObject
-            _dbContext = JsonConvert.DeserializeObject<DBContext>(File.ReadAllText(_dbPath));
-            _products = _dbContext.Products;
-            Log.Logger.Information("Connection to a Database with path: " + _dbPath + " was succesful.");
+            try
+            {
+                // read path from config for DB (JSON)
+                _dbPath = _configuration.GetSection("Database").GetSection("connectionString").Value;
+                // "Connect to JSON File" => DeserializeObject
+                _dbContext = JsonConvert.DeserializeObject<DBContext>(File.ReadAllText(_dbPath));
+                _products = _dbContext.Products;
+                Log.Logger.Information("Connection to a Database with path: " + _dbPath + " was succesful.");
+            }
+          
+            catch
+            {
+                Log.Logger.Information(" Missing JSON file");
+                throw new Exception("Missing JSON file at" );
+            }
         }
+           
+        
 
         public List<Product> GetAll()
         {
