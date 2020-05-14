@@ -25,6 +25,8 @@
             <td id="stock" contenteditable="true"style="background-color:#D9EC9C">0</td>
             <td><button v-on:click="addtt" style="background:cyan;width:100%;height:100%">ADD</button></td>
         </tr>
+		
+		
         <tr v-for="product in products">
             <td contenteditable="false" style="background-color:#D4D4D4">{{ product.name }}</td>
             <td contenteditable="false" style="background-color:#D4D4D4">{{ product.type }}</td>
@@ -32,6 +34,7 @@
             <td contenteditable="false"style="background-color:#D4D4D4">{{ product.stock }}</td>
             <!--<td><button v-on:click="updat(product.name,product.type,product.code,product.stock)">EDIT</button></td>-->
             <td><button v-on:click="delet(product.code)" style="background:#FA6E8A;width:100%;height:100%" >DELETE</button></td>
+			
         </tr>
       </table>
     </div>
@@ -45,6 +48,17 @@
 	}else{
 	t.childNodes[0].innerHTML = "SOCCER"
 	var switchCode = document.getElementById("code")
+	switchCode.innerHTML = "SOCCER"}}
+	</script>
+	<script type = "text/javascript">
+	function toggleUP(t) {
+	if(t.childNodes[0].innerHTML=="SOCCER"){
+	t.childNodes[0].innerHTML = "BASKET"
+	var switchCode = document.getElementById("codeUP")
+	switchCode.innerHTML = "BASKET"
+	}else{
+	t.childNodes[0].innerHTML = "SOCCER"
+	var switchCode = document.getElementById("codeUP")
 	switchCode.innerHTML = "SOCCER"}}
 	</script>
 	
@@ -80,37 +94,41 @@
                   getAll();
                 }
               };
-            },/*
-            updat: function(name, type, code, stock){
+            },
+            updat: function(codeup){
               var newp = JSON.stringify({
-                name: name,
-                type: type,
-                code: code,
-                stock: stock
-              });
-              var xmlHttpU = new XMLHttpRequest();
-              xmlHttpU.open('PUT', 'http://localhost:4401/product/' + code);
-              xmlHttpU.setRequestHeader('Content-Type', 'application/json');
-              xmlHttpU.onreadystatechange = function() {
-                if (this.readyState == 4 && this.status == 200) {
-                    alert(xmlHttpU.responseText);
-                }
-              };
-              xmlHttpU.send(newp);
-              getAll();
-            },*/
-            addtt: function(){
-              var newp = JSON.stringify({
-			  
-			  
                 name: document.getElementById("name").innerHTML,
                 type: document.getElementById("code").innerHTML,
                 code: document.getElementById("code").innerHTML,
                 stock: Number(document.getElementById("stock").innerHTML)
               });
-			  
-			  
-			  
+              var xmlHttpU = new XMLHttpRequest();
+              xmlHttpU.open('PUT', 'http://localhost:4401/product/' + codeup);
+              xmlHttpU.setRequestHeader('Content-Type', 'application/json');
+			  xmlHttpU.send(newp);
+              xmlHttpU.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    alert(xmlHttpU.responseText);
+					getAll();
+                }
+              };
+              
+              
+            },
+            addtt: function(){
+              
+			  var chkname = document.getElementById("name").innerHTML
+			  var chkstk =document.getElementById("stock").innerHTML
+			  if(chkname == "" || chkname == "<br>" || chkstk == "" ||chkstk == "<br>"){
+			   getAll();
+                    alert("Fields Cant be empty");
+			  } else{
+			  var newp = JSON.stringify({
+                name: document.getElementById("name").innerHTML,
+                type: document.getElementById("code").innerHTML,
+                code: document.getElementById("code").innerHTML,
+                stock: Number(document.getElementById("stock").innerHTML)
+              });
               var xmlHttpA = new XMLHttpRequest();
               xmlHttpA.open('POST', 'http://localhost:4401/product', true);
               xmlHttpA.setRequestHeader('Content-Type', 'application/json');
@@ -124,7 +142,7 @@
               
 			  document.getElementById("name").innerHTML = ""
               document.getElementById("stock").innerHTML = "0"
-              
+              }
               
             }
         }
