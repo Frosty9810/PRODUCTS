@@ -46,7 +46,7 @@ namespace PRODUCTS.DataBase
             _products.Add(newProduct);
             SaveChanges();
             Log.Logger.Information("Added new Product Code: " + newProduct.Code);
-            Log.Logger.Information("Product Name: " + newProduct.Name;
+            Log.Logger.Information("Product Name: " + newProduct.Name);
             return newProduct;
         }
 
