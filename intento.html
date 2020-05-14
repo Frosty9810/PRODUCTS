@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PRODUCTS</title>
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <h1>PRODUCTS</h1>
+    <div id="app">
+      <table border="1px" id="table">
+        <tr>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Code</th>
+          <th>Stock</th>
+          <!--<th>EDIT</th>-->
+          <th>DETELE</th>
+        </tr>
+        <tr>
+            <td id="name" contenteditable="true"></td>
+            <td id="type" contenteditable="true"></td>
+            <td id="code" contenteditable="true"></td>
+            <td id="stock" contenteditable="true"></td>
+            <td><button v-on:click="addtt">ADD</button></td>
+        </tr>
+        <tr v-for="product in products">
+            <td contenteditable="true">{{ product.name }}</td>
+            <td contenteditable="true">{{ product.type }}</td>
+            <td contenteditable="true">{{ product.code }}</td>
+            <td contenteditable="true">{{ product.stock }}</td>
+            <!--<td><button v-on:click="updat(product.name,product.type,product.code,product.stock)">EDIT</button></td>-->
+            <td><button v-on:click="delet(product.code)">DELETE</button></td>
+        </tr>
+      </table>
+    </div>
+    <script>
+      function getAll(){
+        var xmlHttp = new XMLHttpRequest();
+        xmlHttp.open('GET', 'http://localhost:4401/product');
+        xmlHttp.setRequestHeader('Content-Type', 'text/plain');
+        xmlHttp.responseType = 'json';
+        xmlHttp.send();
+        xmlHttp.onreadystatechange = function() {
+          if (this.readyState == 4 && this.status == 200) {
+            app.products = xmlHttp.response;
+          }
+        };
+      }
+
+      getAll();
+
+      var app = new Vue({
+        el: '#app',
+        data: {
+          products: null
+        },
+        methods: {
+            delet: function(code){
+              var xmlHttpD = new XMLHttpRequest();
+              xmlHttpD.open('DELETE', 'http://localhost:4401/product/' + code);
+              xmlHttpD.setRequestHeader('Content-Type', 'text/plain');
+              xmlHttpD.send();
+              xmlHttpD.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                  getAll();
+                }
+              };
+            },/*
+            updat: function(name, type, code, stock){
+              var newp = JSON.stringify({
+                name: name,
+                type: type,
+                code: code,
+                stock: stock
+              });
+              var xmlHttpU = new XMLHttpRequest();
+              xmlHttpU.open('PUT', 'http://localhost:4401/product/' + code);
+              xmlHttpU.setRequestHeader('Content-Type', 'application/json');
+              xmlHttpU.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    alert(xmlHttpU.responseText);
+                }
+              };
+              xmlHttpU.send(newp);
+              getAll();
+            },*/
+            addtt: function(){
+              var newp = JSON.stringify({
+                name: document.getElementById("name").innerHTML,
+                type: document.getElementById("type").innerHTML,
+                code: document.getElementById("code").innerHTML,
+                stock: Number(document.getElementById("stock").innerHTML)
+              });
+              var xmlHttpA = new XMLHttpRequest();
+              xmlHttpA.open('POST', 'http://localhost:4401/product', true);
+              xmlHttpA.setRequestHeader('Content-Type', 'application/json');
+              xmlHttpA.send(newp);
+              xmlHttpA.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    getAll();
+                    alert("Added");
+                }
+              };
+              
+              document.getElementById("name").innerHTML = "";
+              document.getElementById("type").innerHTML = "";
+              document.getElementById("code").innerHTML = "";
+              document.getElementById("stock").innerHTML = "";
+              
+            }
+        }
+      });
+        </script>
+    </body>
+</html>
