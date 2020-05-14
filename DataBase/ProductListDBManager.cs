@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.IO;
 using DataBase.Models;
 using Microsoft.Extensions.Logging;
+using Serilog;
 
 namespace PRODUCTS.DataBase
 {
@@ -16,11 +17,11 @@ namespace PRODUCTS.DataBase
         private DBContext _dbContext;
         public readonly ILogger<ProductListDBManager> _logger;
 
-        public ProductListDBManager(IConfiguration config, ILogger<ProductListDBManager> logger)
+        public ProductListDBManager(IConfiguration config)
         {
             // assign config
             _configuration = config;
-            _logger = logger;
+        
             InitDBContext(); // new List<T>()   
         }
 
@@ -31,11 +32,12 @@ namespace PRODUCTS.DataBase
             // "Connect to JSON File" => DeserializeObject
             _dbContext = JsonConvert.DeserializeObject<DBContext>(File.ReadAllText(_dbPath));
             _products = _dbContext.Products;
-            //  _logger.LogInformation("This app is using db path" + _dbpath);  //lOGGER INFO
+            Log.Logger.Information("Connection to a Database with path: " + _dbPath + " was succesful.");
         }
 
         public List<Product> GetAll()
         {
+            Log.Logger.Information("Getting all Products");
             return _products;
         }
 
@@ -43,6 +45,7 @@ namespace PRODUCTS.DataBase
         {
             _products.Add(newProduct);
             SaveChanges();
+            Log.Logger.Information("Added new Product" + newProduct.Code);
             return newProduct;
         }
 
@@ -78,6 +81,7 @@ namespace PRODUCTS.DataBase
                 }
             }
             SaveChanges();
+            Log.Logger.Information("Updated Product with Code" + productToUp.Code);
             return productToUp;
         }
         public bool Delete(string code)
@@ -85,6 +89,7 @@ namespace PRODUCTS.DataBase
             Product productfound = _products.Find(product => product.Code == code);
             bool removed = _products.Remove(productfound);
             SaveChanges();
+            Log.Logger.Information("Delete Product with Code" + productfound.Code);
             return removed;
         }
 

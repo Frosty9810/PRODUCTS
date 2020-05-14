@@ -5,8 +5,7 @@ using PRODUCTS.DTOModels;
 using PRODUCTS.DataBase;
 using System;
 using BusinessLogic.Exceptions;
-using Microsoft.Extensions.Logging;
-using Serilog;
+
 
 
 namespace PRODUCTS.BusinessLogic
@@ -14,17 +13,16 @@ namespace PRODUCTS.BusinessLogic
     public class ProductLogic : IProductLogic
     {
         private readonly IProductListDBManager _productTableDB;
-        public readonly ILogger<ProductListDBManager> _logger;
 
-        public ProductLogic(IProductListDBManager productTableDB, ILogger<ProductListDBManager> logger) 
+        public ProductLogic(IProductListDBManager productTableDB,) 
         {
             _productTableDB = productTableDB;
-            _logger = logger;
+
         }
 
         public List<ProductDTO> GetAll() 
         {
-            _logger.LogInformation("Getting all Products");
+          
             return DTOUtil.MapProductDTOList(_productTableDB.GetAll());
         }
         private string generateId(string type)
@@ -76,8 +74,6 @@ namespace PRODUCTS.BusinessLogic
             };
 
             Product product = _productTableDB.AddNew(productDB);
-            _logger.LogInformation("Creating new product with Code " + productDB.Code.ToString());
-            _logger.LogInformation("Creating new product with Name " + productDB.Name);
             return DTOUtil.MapProductDTO(product);
         }
 
@@ -113,7 +109,6 @@ namespace PRODUCTS.BusinessLogic
             }
 
             Product productDB = new Product(upProduct.Name, upProduct.Type, code, upProduct.Stock);
-            _logger.LogInformation("Updating product with Code: " + upProduct.Code.ToString());
             //  _productTableDB.Update(productDB, code);
             return DTOUtil.MapProductDTO(_productTableDB.Update(productDB, code));
         }
@@ -127,7 +122,6 @@ namespace PRODUCTS.BusinessLogic
             {
                 throw new NotFoundCodeException("We could not find the code");
             }
-            _logger.LogInformation("Delete product with Code: " + code);
             return _productTableDB.Delete(code);
         }
 
