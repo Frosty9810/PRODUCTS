@@ -13,7 +13,7 @@
           <th>Type</th>
           <th>Code</th>
           <th>Stock</th>
-          <th>EDIT</th>
+          <!--<th>EDIT</th>-->
           <th>DETELE</th>
         </tr>
         <tr>
@@ -28,7 +28,7 @@
             <td contenteditable="true">{{ product.type }}</td>
             <td contenteditable="true">{{ product.code }}</td>
             <td contenteditable="true">{{ product.stock }}</td>
-            <td><button v-on:click="updat(product.name,product.type,product.code,product.stock)">EDIT</button></td>
+            <!--<td><button v-on:click="updat(product.name,product.type,product.code,product.stock)">EDIT</button></td>-->
             <td><button v-on:click="delet(product.code)">DELETE</button></td>
         </tr>
       </table>
@@ -65,7 +65,7 @@
                   getAll();
                 }
               };
-            },
+            },/*
             updat: function(name, type, code, stock){
               var newp = JSON.stringify({
                 name: name,
@@ -83,7 +83,7 @@
               };
               xmlHttpU.send(newp);
               getAll();
-            },
+            },*/
             addtt: function(){
               var newp = JSON.stringify({
                 name: document.getElementById("name").innerHTML,
