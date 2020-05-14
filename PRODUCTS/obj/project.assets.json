@@ -6478,27 +6478,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Users\\JD\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Android\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj",
+      "projectUniqueName": "C:\\Users\\JD\\Desktop\\CertiF\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj",
       "projectName": "PRODUCTS",
-      "projectPath": "E:\\Android\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "E:\\Android\\PRODUCTS\\PRODUCTS\\obj\\",
+      "projectPath": "C:\\Users\\JD\\Desktop\\CertiF\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj",
+      "packagesPath": "C:\\Users\\JD\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\JD\\Desktop\\CertiF\\PRODUCTS\\PRODUCTS\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\JD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -6510,8 +6507,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "E:\\Android\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj": {
-              "projectPath": "E:\\Android\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj"
+            "C:\\Users\\JD\\Desktop\\CertiF\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj": {
+              "projectPath": "C:\\Users\\JD\\Desktop\\CertiF\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj"
             }
           }
         }

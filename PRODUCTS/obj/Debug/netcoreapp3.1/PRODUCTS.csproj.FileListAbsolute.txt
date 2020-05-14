@@ -334,11 +334,9 @@ C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\ru\Microsof
 C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\BackingServices.dll
 C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\BusinessLogic.dll
 C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\DataBase.dll
 C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\BusinessLogic.pdb
-C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\BackingServices.pdb
 C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\bin\Debug\netcoreapp3.1\DataBase.pdb
 C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.csprojAssemblyReference.cache
 C:\Users\JD\Desktop\CertiF\PRODUCTS\PRODUCTS\obj\Debug\netcoreapp3.1\PRODUCTS.csproj.CoreCompileInputs.cache

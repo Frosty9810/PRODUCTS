@@ -58,9 +58,9 @@ namespace PRODUCTS.BusinessLogic
             {
                 throw new EmptyOrNullTypeException("Type cannot be empty");
             }
-            if (Convert.ToInt32(newProduct.Stock) < 0 || Convert.ToInt32(newProduct.Stock) > 10)
+            if (Convert.ToInt32(newProduct.Stock) < 0 || Convert.ToInt32(newProduct.Stock) > 100)
             {
-                throw new StockBetweenException("The Stock must be between 0 and 10.");
+                throw new StockBetweenException("The Stock must be between 0 and 100.");
             }
             if (newProduct.Name.Length < 3)
             {
@@ -83,6 +83,7 @@ namespace PRODUCTS.BusinessLogic
 
         public ProductDTO updateProduct(ProductDTO upProduct, string code)
         {
+            
             if (upProduct.Code == null)
             {
                 throw new Exception("Invalid data, code is misssing"); // StudentLogicInvalidDataException()
@@ -104,14 +105,14 @@ namespace PRODUCTS.BusinessLogic
                     {
                         product.Code = code;
                     }
-                    if (product.Stock != 0)
-                    {
+                    //if (product.Stock != 0)
+                    //{
                         product.Stock = upProduct.Stock;
-                    }
+                    //}
                     break;
                 }
             }
-
+            
             Product productDB = new Product(upProduct.Name, upProduct.Type, code, upProduct.Stock);
             _logger.LogInformation("Updating product with Code: " + upProduct.Code.ToString());
             //  _productTableDB.Update(productDB, code);

@@ -60,14 +60,14 @@ namespace PRODUCTS.DataBase
                 {
                     productToUp.Name = productToUpdate.Name;
                 }
-                if (productToUpdate.Stock != 0)
-                {
-                    productToUpdate.Stock = productToUp.Stock;
-                }
-                else
-                {
-                    productToUp.Stock = productToUpdate.Stock;
-                }
+               // if (productToUpdate.Stock != 0)
+                //{
+                   // productToUpdate.Stock = productToUp.Stock;
+                //}
+                //else
+               // {
+                    productToUp.Stock = productToUpdate.Stock; 
+                //}
                 if (string.IsNullOrEmpty(productToUpdate.Type))
                 {
                     productToUpdate.Type = productToUp.Type;

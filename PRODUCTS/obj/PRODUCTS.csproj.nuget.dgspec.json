@@ -1,26 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Android\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj": {}
+    "C:\\Users\\JD\\Desktop\\CertiF\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj": {}
   },
   "projects": {
-    "E:\\Android\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj": {
+    "C:\\Users\\JD\\Desktop\\CertiF\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Android\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj",
+        "projectUniqueName": "C:\\Users\\JD\\Desktop\\CertiF\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj",
         "projectName": "BusinessLogic",
-        "projectPath": "E:\\Android\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\Android\\PRODUCTS\\BusinessLogic\\obj\\",
+        "projectPath": "C:\\Users\\JD\\Desktop\\CertiF\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\JD\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JD\\Desktop\\CertiF\\PRODUCTS\\BusinessLogic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\JD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -32,8 +30,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "E:\\Android\\PRODUCTS\\DataBase\\DataBase.csproj": {
-                "projectPath": "E:\\Android\\PRODUCTS\\DataBase\\DataBase.csproj"
+              "C:\\Users\\JD\\Desktop\\CertiF\\PRODUCTS\\DataBase\\DataBase.csproj": {
+                "projectPath": "C:\\Users\\JD\\Desktop\\CertiF\\PRODUCTS\\DataBase\\DataBase.csproj"
               }
             }
           }
@@ -65,23 +63,21 @@
         }
       }
     },
-    "E:\\Android\\PRODUCTS\\DataBase\\DataBase.csproj": {
+    "C:\\Users\\JD\\Desktop\\CertiF\\PRODUCTS\\DataBase\\DataBase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Android\\PRODUCTS\\DataBase\\DataBase.csproj",
+        "projectUniqueName": "C:\\Users\\JD\\Desktop\\CertiF\\PRODUCTS\\DataBase\\DataBase.csproj",
         "projectName": "DataBase",
-        "projectPath": "E:\\Android\\PRODUCTS\\DataBase\\DataBase.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\Android\\PRODUCTS\\DataBase\\obj\\",
+        "projectPath": "C:\\Users\\JD\\Desktop\\CertiF\\PRODUCTS\\DataBase\\DataBase.csproj",
+        "packagesPath": "C:\\Users\\JD\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JD\\Desktop\\CertiF\\PRODUCTS\\DataBase\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\JD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -148,23 +144,21 @@
         }
       }
     },
-    "E:\\Android\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj": {
+    "C:\\Users\\JD\\Desktop\\CertiF\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Android\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj",
+        "projectUniqueName": "C:\\Users\\JD\\Desktop\\CertiF\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj",
         "projectName": "PRODUCTS",
-        "projectPath": "E:\\Android\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\Android\\PRODUCTS\\PRODUCTS\\obj\\",
+        "projectPath": "C:\\Users\\JD\\Desktop\\CertiF\\PRODUCTS\\PRODUCTS\\PRODUCTS.csproj",
+        "packagesPath": "C:\\Users\\JD\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JD\\Desktop\\CertiF\\PRODUCTS\\PRODUCTS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\JD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -176,8 +170,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "E:\\Android\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj": {
-                "projectPath": "E:\\Android\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj"
+              "C:\\Users\\JD\\Desktop\\CertiF\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj": {
+                "projectPath": "C:\\Users\\JD\\Desktop\\CertiF\\PRODUCTS\\BusinessLogic\\BusinessLogic.csproj"
               }
             }
           }
